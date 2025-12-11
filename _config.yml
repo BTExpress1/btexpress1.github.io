@@ -27,9 +27,6 @@ linkedin: "https://www.linkedin.com/in/binilt"
 github: "https://github.com/btexpress1"
 email: "bini@amajeybeacon.com"
 
-paginate: 6
-paginate_path: "/page/:num"
-
 sass:
   sass_dir: _sass
   style: compressed
