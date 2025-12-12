@@ -1,11 +1,10 @@
-# Pagination settings
-paginate: 10  # Number of posts per page
-paginate_path: "/page/:num/"
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  
+  - jekyll-remote-theme
 
 #-------------------------------
 # General Site Settings
@@ -18,14 +17,17 @@ url: "https://btexpress1.github.io"
 # About Section
 subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
 location: "Kirkland, WA, USA"
-resume_url: /docs/BiniTeklehaimanot_Resume.docx
+resume_url: /docs/resumedocx
 avatar_image: /img/Bini.JPG
 
 #-------------------------------
 # Contact links
 linkedin: "https://www.linkedin.com/in/binilt"
 github: "https://github.com/btexpress1"
-email: "bini@amajeybeacon.com"
+email: "bini@amakeybeacon.com"
+
+paginate: 6
+paginate_path: "/page/:num"
 
 sass:
   sass_dir: _sass
