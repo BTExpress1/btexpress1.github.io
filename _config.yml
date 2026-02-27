@@ -13,11 +13,3 @@ locale: "en-US"
 name: "Bini Teklehaimanot"
 repository: "BTExpress1/btexpress1.github.io"
 
-# Navigation
-navigation:
-  - title: "About"
-    url: /about/
-  - title: "Case Studies"
-    url: /case-studies/
-  - title: "Blog"
-    url: https://btexpress1.github.io/blog/
