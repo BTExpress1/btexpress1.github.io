@@ -1,61 +1,88 @@
-/* --- Global Reset to Fix Alignment --- */
-body, #quarto-content, .page-layout-full, main {
+/* --- Global Reset & Alignment --- */
+body, #quarto-content, .page-layout-custom, main {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
 }
 
-/* --- Header Polish --- */
+/* --- Navigation Bar (Dark Header) --- */
 .navbar {
   background-color: #1a1a1a !important; 
-  padding: 1.5rem 5% !important; /* Uses % for better horizontal scaling */
+  padding: 1.5rem 5% !important; 
+  border-bottom: none;
 }
 
+/* Logo Size Fix */
 .navbar-brand img {
   max-height: 90px !important; 
   width: auto;
 }
 
-/* --- Hero Center Logic --- */
+/* Nav Links - Yellow for visibility */
+.navbar-nav .nav-link {
+  color: #F2C300 !important; /* Brand Yellow */
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Search Icon - Yellow */
+.quarto-search-toggle, 
+.quarto-navigation-tool {
+  color: #F2C300 !important;
+}
+
+.quarto-search-toggle:hover {
+  color: #ffffff !important;
+}
+
+/* --- Hero Section --- */
 .hero-container {
   display: flex;
   flex-direction: column;
-  align-items: center;    /* Horizontal center */
-  justify-content: center; /* Vertical center */
-  min-height: 70vh;       /* Occupies 70% of screen height */
+  align-items: center;    
+  justify-content: center; 
+  min-height: 70vh;       
   text-align: center;
-  width: 100vw;           /* Force full viewport width */
+  width: 100vw;           
   margin: 0 auto;
 }
 
 .hero-title {
   font-size: 4.5rem;
   font-weight: 800;
-  color: #0057B8; 
-  margin: 0;             /* Kills all default browser gaps */
-  line-height: 0.9;      /* Tightens the box around the text */
+  color: #0057B8; /* Brand Blue */
+  margin: 0;
+  line-height: 0.9;
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
   color: #444;
-  margin-top: 5px;       /* Puts it directly under the name */
+  margin-top: 8px; /* Tight spacing to the name */
   margin-bottom: 2.5rem;
 }
 
+/* --- Call to Action (CTA) Button --- */
 .hero-cta {
   display: inline-block;
-  padding: 0.9rem 2.5rem;
-  background-color: #0057B8;
+  padding: 1rem 3rem;
+  background-color: #0057B8; /* Brand Blue */
   color: white !important;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 50px; /* Modern pill shape */
   font-weight: 600;
-  transition: transform 0.2s ease;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .hero-cta:hover {
-  background-color: #F2C300; 
-  color: #000 !important;
+  background-color: #F2C300; /* Brand Yellow */
+  color: #000 !important; /* Black text for contrast on yellow */
   transform: scale(1.05);
+  text-decoration: none;
 }
