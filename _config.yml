@@ -10,7 +10,10 @@ plugins:
 
 # Footer Settings
 footer:
-  feed: false # This disables the "Feed" link in the footer
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/binilt/" 
 
 # Minimal Mistakes settings
 locale: "en-US"

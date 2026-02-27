@@ -1,7 +1,9 @@
 ---
 layout: splash
 title: "Bini Teklehaimanot"
-excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
+header:
+  overlay_color: "#333" # This forces the header container to render
+  excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
 paginate: false
 
 feature_row:
