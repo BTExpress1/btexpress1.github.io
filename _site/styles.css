@@ -104,22 +104,33 @@ main.content,
 .three-columns {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
   width: 100%;
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 4rem auto;
   padding: 0 2rem;
 }
 
 .three-columns .column {
   flex: 1;
   min-width: 0;
+  border-top: 1px solid #eee; /* Adds a subtle horizontal rule above each section */
+  padding-top: 1.5rem;
 }
 
 .three-columns h3 {
   margin-top: 0;
   color: #0057B8;
   font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.column-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 .column-link {
@@ -128,8 +139,29 @@ main.content,
   font-weight: 600;
   color: #0057B8;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .column-link:hover {
+  color: #F2C300;
   text-decoration: underline;
+}
+
+/* Bullets styling inside columns */
+.three-columns ul {
+  padding-left: 1.1rem;
+  color: #333;
+}
+
+.three-columns li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .three-columns {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
