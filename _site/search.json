@@ -4,7 +4,7 @@
     "href": "philosophy/index.html",
     "title": "Philosophy",
     "section": "",
-    "text": "Your work is grounded in clarity, trust, and disciplined thinking. You design systems that are explainable, resilient, and aligned with how real organizations make decisions. This page distills the principles that guide your approach to high‑stakes data science.\n\n\n\nEffective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance.\n\n\n\n\nAmbiguity is the enemy of reliability. Before adding features, tuning models, or exploring architectures, you clarify:\n\nWhat “good” looks like\n\nWhat failure means\n\nWhat constraints matter most\n\nThis creates a stable foundation for any technical work that follows.\n\n\n\n\nHigh‑stakes systems must be predictable, auditable, and robust under pressure. You prioritize:\n\nInterpretability where it matters\n\nHybrid approaches that blend rules and ML\n\nMonitoring that catches drift before it becomes a problem\n\nThe goal is not novelty. The goal is trust.\n\n\n\n\nA system is only as strong as the organization that uses it. You bring your TPM background into DS work by:\n\nFraming ambiguity\n\nDriving alignment across technical and non‑technical teams\n\nEnsuring decisions are understood, not just implemented\n\nThis reduces friction and accelerates adoption.\n\n\n\n\nShort‑term wins matter, but durability matters more. You design systems that:\n\nSurvive organizational change\n\nScale with new data and new constraints\n\nRemain explainable years after deployment\n\nThis is how you create lasting impact."
+    "text": "Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance."
   },
   {
     "objectID": "philosophy/index.html#model-the-decision-not-the-dataset",
@@ -17,36 +17,36 @@
     "objectID": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
     "href": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
     "title": "Philosophy",
-    "section": "",
-    "text": "Ambiguity is the enemy of reliability. Before adding features, tuning models, or exploring architectures, you clarify:\n\nWhat “good” looks like\n\nWhat failure means\n\nWhat constraints matter most\n\nThis creates a stable foundation for any technical work that follows."
+    "section": "Reduce ambiguity before increasing complexity",
+    "text": "Reduce ambiguity before increasing complexity\nAmbiguity is the enemy of reliability. Before adding features, tuning models, or exploring architectures, you clarify:\n\nWhat “good” looks like\n\nWhat failure means\n\nWhat constraints matter most\n\nThis creates a stable foundation for any technical work that follows."
   },
   {
     "objectID": "philosophy/index.html#design-for-reliability-not-cleverness",
     "href": "philosophy/index.html#design-for-reliability-not-cleverness",
     "title": "Philosophy",
-    "section": "",
-    "text": "High‑stakes systems must be predictable, auditable, and robust under pressure. You prioritize:\n\nInterpretability where it matters\n\nHybrid approaches that blend rules and ML\n\nMonitoring that catches drift before it becomes a problem\n\nThe goal is not novelty. The goal is trust."
+    "section": "Design for reliability, not cleverness",
+    "text": "Design for reliability, not cleverness\nHigh‑stakes systems must be predictable, auditable, and robust under pressure. You prioritize:\n\nInterpretability where it matters\n\nHybrid approaches that blend rules and ML\n\nMonitoring that catches drift before it becomes a problem\n\nThe goal is not novelty. The goal is trust."
   },
   {
     "objectID": "philosophy/index.html#align-stakeholders-early-and-often",
     "href": "philosophy/index.html#align-stakeholders-early-and-often",
     "title": "Philosophy",
-    "section": "",
-    "text": "A system is only as strong as the organization that uses it. You bring your TPM background into DS work by:\n\nFraming ambiguity\n\nDriving alignment across technical and non‑technical teams\n\nEnsuring decisions are understood, not just implemented\n\nThis reduces friction and accelerates adoption."
+    "section": "Align stakeholders early and often",
+    "text": "Align stakeholders early and often\nA system is only as strong as the organization that uses it. You bring your TPM background into DS work by:\n\nFraming ambiguity\n\nDriving alignment across technical and non‑technical teams\n\nEnsuring decisions are understood, not just implemented\n\nThis reduces friction and accelerates adoption."
   },
   {
     "objectID": "philosophy/index.html#build-for-the-long-term",
     "href": "philosophy/index.html#build-for-the-long-term",
     "title": "Philosophy",
-    "section": "",
-    "text": "Short‑term wins matter, but durability matters more. You design systems that:\n\nSurvive organizational change\n\nScale with new data and new constraints\n\nRemain explainable years after deployment\n\nThis is how you create lasting impact."
+    "section": "Build for the long term",
+    "text": "Build for the long term\nShort‑term wins matter, but durability matters more. You design systems that:\n\nSurvive organizational change\n\nScale with new data and new constraints\n\nRemain explainable years after deployment\n\nThis is how you create lasting impact."
   },
   {
     "objectID": "expertise/index.html",
     "href": "expertise/index.html",
     "title": "Expertise",
     "section": "",
-    "text": "You operate at the intersection of data science, risk, and product strategy. Your work focuses on building decision systems that are reliable, explainable, and aligned with real organizational constraints. This page outlines the core areas where you bring depth, clarity, and senior-level judgment.\n\n\n\nYour modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.\n\nClassification and ranking systems for fraud and risk\n\nTime‑series and forecasting for operational planning\n\nHybrid rule‑based and ML architectures for auditability\n\nThese systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders.\n\n\n\n\nYou bring a structured approach to risk, shaped by experience in regulated environments. Your systems are designed to be transparent, defensible, and aligned with compliance expectations.\n\nControls that integrate directly into model pipelines\n\nDocumentation and traceability for regulatory review\n\nMonitoring frameworks that detect drift early\n\nThis ensures that models remain trustworthy long after deployment.\n\n\n\n\nYour TPM background strengthens your ability to design workflows that scale, reduce ambiguity, and support long‑term maintainability.\n\nData pipelines that prioritize clarity and reproducibility\n\nDeployment workflows that minimize operational risk\n\nArchitecture choices that balance speed with durability\n\nThese workflows help teams move faster without sacrificing reliability.\n\n\n\n\nYou translate complex modeling decisions into clear, actionable narratives that align teams and accelerate adoption.\n\nFraming ambiguity and defining decision boundaries\n\nCommunicating trade‑offs in language that resonates\n\nEnsuring systems fit the way organizations actually operate\n\nThis is how you turn technical work into business impact."
+    "text": "Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.\n\nClassification and ranking systems for fraud and risk\n\nTime‑series and forecasting for operational planning\n\nHybrid rule‑based and ML architectures for auditability\n\nThese systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders."
   },
   {
     "objectID": "expertise/index.html#highstakes-modeling-and-inference",
@@ -59,29 +59,29 @@
     "objectID": "expertise/index.html#risk-and-compliance-frameworks",
     "href": "expertise/index.html#risk-and-compliance-frameworks",
     "title": "Expertise",
-    "section": "",
-    "text": "You bring a structured approach to risk, shaped by experience in regulated environments. Your systems are designed to be transparent, defensible, and aligned with compliance expectations.\n\nControls that integrate directly into model pipelines\n\nDocumentation and traceability for regulatory review\n\nMonitoring frameworks that detect drift early\n\nThis ensures that models remain trustworthy long after deployment."
+    "section": "Risk and compliance frameworks",
+    "text": "Risk and compliance frameworks\nYou bring a structured approach to risk, shaped by experience in regulated environments. Your systems are designed to be transparent, defensible, and aligned with compliance expectations.\n\nControls that integrate directly into model pipelines\n\nDocumentation and traceability for regulatory review\n\nMonitoring frameworks that detect drift early\n\nThis ensures that models remain trustworthy long after deployment."
   },
   {
     "objectID": "expertise/index.html#technical-workflow-design-and-architecture",
     "href": "expertise/index.html#technical-workflow-design-and-architecture",
     "title": "Expertise",
-    "section": "",
-    "text": "Your TPM background strengthens your ability to design workflows that scale, reduce ambiguity, and support long‑term maintainability.\n\nData pipelines that prioritize clarity and reproducibility\n\nDeployment workflows that minimize operational risk\n\nArchitecture choices that balance speed with durability\n\nThese workflows help teams move faster without sacrificing reliability."
+    "section": "Technical workflow design and architecture",
+    "text": "Technical workflow design and architecture\nYour TPM background strengthens your ability to design workflows that scale, reduce ambiguity, and support long‑term maintainability.\n\nData pipelines that prioritize clarity and reproducibility\n\nDeployment workflows that minimize operational risk\n\nArchitecture choices that balance speed with durability\n\nThese workflows help teams move faster without sacrificing reliability."
   },
   {
     "objectID": "expertise/index.html#product-alignment-and-stakeholder-clarity",
     "href": "expertise/index.html#product-alignment-and-stakeholder-clarity",
     "title": "Expertise",
-    "section": "",
-    "text": "You translate complex modeling decisions into clear, actionable narratives that align teams and accelerate adoption.\n\nFraming ambiguity and defining decision boundaries\n\nCommunicating trade‑offs in language that resonates\n\nEnsuring systems fit the way organizations actually operate\n\nThis is how you turn technical work into business impact."
+    "section": "Product alignment and stakeholder clarity",
+    "text": "Product alignment and stakeholder clarity\nYou translate complex modeling decisions into clear, actionable narratives that align teams and accelerate adoption.\n\nFraming ambiguity and defining decision boundaries\n\nCommunicating trade‑offs in language that resonates\n\nEnsuring systems fit the way organizations actually operate\n\nThis is how you turn technical work into business impact."
   },
   {
     "objectID": "case-studies/index.html",
     "href": "case-studies/index.html",
     "title": "Case Studies",
     "section": "",
-    "text": "You design and deliver high‑stakes decision systems across healthtech and fintech. Each case study highlights how you combine modeling rigor, risk awareness, and product alignment to create systems that work in the real world.\n\n\n\nFintech | High‑stakes classification | Risk & compliance\nA multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.\n\nReduced manual review load while increasing true‑positive rate\n\nIntroduced interpretable model components for auditability\n\nDelivered measurable lift validated through backtesting and live A/B rollout\n\nFull write‑up coming soon.\n\n\n\n\nHealthtech | Time‑series modeling | Operational efficiency\nA decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.\n\nModeled patient flow using time‑series and queueing insights\n\nQuantified trade‑offs between staffing, scheduling, and patient load\n\nImproved workflow predictability and reduced delays\n\nFull write‑up coming soon.\n\n\n\n\nFintech | Rule‑based + ML hybrid | Auditability\nA hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.\n\nDesigned for explainability and traceability\n\nReduced manual compliance overhead\n\nIntegrated seamlessly with existing review workflows\n\nFull write‑up coming soon."
+    "text": "Fintech | High‑stakes classification | Risk & compliance\nA multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.\n\nReduced manual review load while increasing true‑positive rate\n\nIntroduced interpretable model components for auditability\n\nDelivered measurable lift validated through backtesting and live A/B rollout\n\nFull write‑up coming soon."
   },
   {
     "objectID": "case-studies/index.html#fraud-detection-system",
@@ -94,14 +94,14 @@
     "objectID": "case-studies/index.html#clinical-workflow-optimization",
     "href": "case-studies/index.html#clinical-workflow-optimization",
     "title": "Case Studies",
-    "section": "",
-    "text": "Healthtech | Time‑series modeling | Operational efficiency\nA decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.\n\nModeled patient flow using time‑series and queueing insights\n\nQuantified trade‑offs between staffing, scheduling, and patient load\n\nImproved workflow predictability and reduced delays\n\nFull write‑up coming soon."
+    "section": "Clinical Workflow Optimization",
+    "text": "Clinical Workflow Optimization\nHealthtech | Time‑series modeling | Operational efficiency\nA decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.\n\nModeled patient flow using time‑series and queueing insights\n\nQuantified trade‑offs between staffing, scheduling, and patient load\n\nImproved workflow predictability and reduced delays\n\nFull write‑up coming soon."
   },
   {
     "objectID": "case-studies/index.html#compliance-automation",
     "href": "case-studies/index.html#compliance-automation",
     "title": "Case Studies",
-    "section": "",
-    "text": "Fintech | Rule‑based + ML hybrid | Auditability\nA hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.\n\nDesigned for explainability and traceability\n\nReduced manual compliance overhead\n\nIntegrated seamlessly with existing review workflows\n\nFull write‑up coming soon."
+    "section": "Compliance Automation",
+    "text": "Compliance Automation\nFintech | Rule‑based + ML hybrid | Auditability\nA hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.\n\nDesigned for explainability and traceability\n\nReduced manual compliance overhead\n\nIntegrated seamlessly with existing review workflows\n\nFull write‑up coming soon."
   }
 ]

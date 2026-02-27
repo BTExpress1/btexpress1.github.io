@@ -6,12 +6,6 @@ format:
     toc-depth: 2
 ---
 
-# Expertise
-
-You operate at the intersection of data science, risk, and product strategy. Your work focuses on building decision systems that are reliable, explainable, and aligned with real organizational constraints. This page outlines the core areas where you bring depth, clarity, and senior-level judgment.
-
----
-
 ## High‑stakes modeling and inference
 
 Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.

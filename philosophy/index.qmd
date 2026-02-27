@@ -6,12 +6,6 @@ format:
     toc-depth: 2
 ---
 
-# Philosophy
-
-Your work is grounded in clarity, trust, and disciplined thinking. You design systems that are explainable, resilient, and aligned with how real organizations make decisions. This page distills the principles that guide your approach to high‑stakes data science.
-
----
-
 ## Model the decision, not the dataset
 
 Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:

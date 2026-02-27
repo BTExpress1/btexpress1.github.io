@@ -6,12 +6,6 @@ format:
     toc-depth: 2
 ---
 
-# Case Studies
-
-You design and deliver high‑stakes decision systems across healthtech and fintech. Each case study highlights how you combine modeling rigor, risk awareness, and product alignment to create systems that work in the real world.
-
----
-
 ## Fraud Detection System  
 **Fintech | High‑stakes classification | Risk & compliance**
 
