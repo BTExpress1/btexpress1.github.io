@@ -1,1 +1,48 @@
-/* custom styles will go here */
+.hero-container {
+  max-width: 900px;
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+}
+
+.hero-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0057B8;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease;
+}
+
+.hero-cta:hover {
+  background-color: #F2C300;
+}
+
+.navbar {
+  background-color: #0057B8 !important;
+}
+
+.navbar a, .navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar a:hover {
+  color: #F2C300 !important;
+}
