@@ -1,6 +1,6 @@
 ---
 title: ""
-page-layout: full
+page-layout: custom
 ---
 
 <div class="hero-container">
