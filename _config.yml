@@ -10,10 +10,18 @@ plugins:
 
 # Footer Settings
 footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/binilt/" 
+  feed: false
+  show_powered_by: false
+  links: []
+
+
+# Custom CSS (this is what enables your blue + yellow branding) 
+sass: 
+   sass_dir: _sass 
+   style: compressed 
+   
+# Load your custom stylesheet 
+include: - assets/css/custom.scss
 
 # Minimal Mistakes settings
 locale: "en-US"

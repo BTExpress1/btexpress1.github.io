@@ -1,0 +1,44 @@
+/* Brand colors */
+$brand-blue: #0057B8;
+$brand-yellow: #F4C300;
+
+/* Hero title */
+.page__title {
+  color: $brand-blue;
+}
+
+/* Navigation links */
+.masthead__menu-item a {
+  color: $brand-blue;
+
+  &:hover {
+    border-bottom: 2px solid $brand-yellow;
+  }
+}
+
+/* Feature block titles */
+.feature__title {
+  color: $brand-blue;
+}
+
+/* Buttons */
+.btn--primary {
+  background-color: $brand-blue;
+  border-color: $brand-blue;
+
+  &:hover {
+    background-color: $brand-yellow;
+    border-color: $brand-yellow;
+    color: #000;
+  }
+}
+
+/* Accent underline for hero */
+.page__title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: $brand-yellow;
+  margin-top: 10px;
+}

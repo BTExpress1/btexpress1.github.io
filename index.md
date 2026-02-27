@@ -2,10 +2,11 @@
 layout: splash
 title: "Bini Teklehaimanot"
 header:
-  overlay_color: "#333" # This forces the header container to render
+  overlay_color: "#333"
   excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
-paginate: false
-
+  cta_label: "Connect on LinkedIn"
+  cta_url: "https://www.linkedin.com/in/binilt/"
+  
 feature_row:
   - title: "Case Studies"
     excerpt: "High‑stakes decision systems across healthtech and fintech."
