@@ -5,6 +5,12 @@ body, #quarto-content, .page-layout-custom, main {
   width: 100% !important;
 }
 
+/* --- Page Top Spacing Under Navbar --- */
+main.content, 
+#quarto-content {
+  padding-top: 3rem !important; 
+}
+
 /* --- Navigation Bar (Dark Header) --- */
 .navbar {
   background-color: #1a1a1a !important; 
