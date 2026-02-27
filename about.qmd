@@ -3,8 +3,6 @@ title: "About"
 page-layout: article
 ---
 
-## About
-
 I’m a Principal Data Scientist specializing in high‑stakes decision systems across regulated and operationally complex domains. My work focuses on building models and workflows that organizations can trust, especially when the cost of a wrong decision is high.
 
 I approach data science by modeling the decision, not just the dataset. That means reducing ambiguity before increasing complexity, aligning statistical rigor with operational constraints, and designing systems that are reliable, explainable, and durable in real‑world environments. Clarity, trust, and disciplined thinking guide how I build and evaluate solutions.
