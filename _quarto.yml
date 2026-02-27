@@ -5,18 +5,22 @@ website:
   title: ""   # hide text title
   navbar:
     logo: assets/images/logo.png
+    collapse: false
     right:
       - text: "About"
         href: about.qmd
       - text: "Case Studies"
-        href: case-studies/index.qmd
+          href: case-studies/index.qmd
       - text: "Philosophy"
         href: philosophy/index.qmd
       - text: "Blog"
         href: blog/index.qmd
 
 
+
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: false
+    smooth-scroll: true
