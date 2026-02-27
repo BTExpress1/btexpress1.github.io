@@ -8,13 +8,13 @@ body, #quarto-content, .page-layout-custom, main {
 /* --- Navigation Bar (Dark Header) --- */
 .navbar {
   background-color: #1a1a1a !important; 
-  padding: 1.5rem 5% !important; 
+  padding: 0.5rem 5% !important; 
   border-bottom: none;
 }
 
 /* Logo Size Fix */
 .navbar-brand img {
-  max-height: 90px !important; 
+  max-height: 55px !important; 
   width: auto;
 }
 
