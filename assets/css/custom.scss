@@ -1,38 +1,32 @@
 ---
 ---
+
+/* 1. Define Variables AT THE TOP */
+$brand-blue: #0057B8;
+$brand-yellow: #F4C300;
+
 @import "minimal-mistakes";
 
-/* 1. Make Logo Bigger */
-.logo img {
-  max-height: 80px !important; // Adjust this number until it looks right
+/* 2. Make Logo Bigger */
+.logo img, .site-logo img {
+  max-height: 80px !important; 
   width: auto;
 }
 
-/* 2. Remove Powered By / Footer Feed */
+/* 3. Remove Powered By / Footer Feed */
 .site-footer__copyright, 
 .footer__links {
   display: none !important;
 }
 
-/* 3. Hero Text & Accent Underline */
+/* 4. Hero Text & Accent Underline */
 .page__hero-excerpt {
   color: #fff !important;
   font-size: 1.5rem !important;
-  border-bottom: 4px solid #F4C300 !important; // Your brand yellow
+  border-bottom: 4px solid $brand-yellow !important;
   padding-bottom: 10px;
   display: inline-block;
 }
-
-/* 4. Branding Colors (Ensure !important is used) */
-.btn--primary {
-  background-color: #0057B8 !important;
-  border-color: #0057B8 !important;
-  &:hover {
-    background-color: #F4C300 !important;
-    color: #000 !important;
-  }
-}
-
 
 /* 5. Feature block titles */
 .archive__item-title {
@@ -43,7 +37,7 @@
   }
 }
 
-/* 6. Buttons */
+/* 6. Buttons (Merged & Using Variables) */
 .btn--primary {
   background-color: $brand-blue !important;
   border-color: $brand-blue !important;
