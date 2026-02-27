@@ -1,5 +1,5 @@
 ---
-layout home
+layout: home
 title: "Bini Teklehaimanot"
 subtitle: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
 paginate: false
