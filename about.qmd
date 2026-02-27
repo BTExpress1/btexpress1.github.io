@@ -1,0 +1,14 @@
+---
+title: "About"
+page-layout: article
+---
+
+## About
+
+I’m a Principal Data Scientist specializing in high‑stakes decision systems across regulated and operationally complex domains. My work focuses on building models and workflows that organizations can trust, especially when the cost of a wrong decision is high.
+
+I approach data science by modeling the decision, not just the dataset. That means reducing ambiguity before increasing complexity, aligning statistical rigor with operational constraints, and designing systems that are reliable, explainable, and durable in real‑world environments. Clarity, trust, and disciplined thinking guide how I build and evaluate solutions.
+
+My experience spans fraud detection, clinical workflow optimization, compliance automation, and risk‑aware modeling frameworks. Across these areas, I focus on measurable impact, auditability, and the ability for systems to operate under real constraints rather than idealized assumptions.
+
+My background blends data science, risk modeling, and technical program management. That combination helps me align stakeholders, clarify requirements, and deliver systems that work beyond the prototype stage. I operate at the intersection of modeling, product strategy, and organizational decision‑making, with a focus on building decision systems that are both technically rigorous and operationally sound.
