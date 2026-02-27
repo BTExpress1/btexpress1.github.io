@@ -1,0 +1,65 @@
+---
+title: "Expertise"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+# Expertise
+
+You operate at the intersection of data science, risk, and product strategy. Your work focuses on building decision systems that are reliable, explainable, and aligned with real organizational constraints. This page outlines the core areas where you bring depth, clarity, and senior-level judgment.
+
+---
+
+## High‑stakes modeling and inference
+
+Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.
+
+- Classification and ranking systems for fraud and risk  
+- Time‑series and forecasting for operational planning  
+- Hybrid rule‑based and ML architectures for auditability  
+
+These systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders.
+
+---
+
+## Risk and compliance frameworks
+
+You bring a structured approach to risk, shaped by experience in regulated environments. Your systems are designed to be transparent, defensible, and aligned with compliance expectations.
+
+- Controls that integrate directly into model pipelines  
+- Documentation and traceability for regulatory review  
+- Monitoring frameworks that detect drift early  
+
+This ensures that models remain trustworthy long after deployment.
+
+---
+
+## Technical workflow design and architecture
+
+Your TPM background strengthens your ability to design workflows that scale, reduce ambiguity, and support long‑term maintainability.
+
+- Data pipelines that prioritize clarity and reproducibility  
+- Deployment workflows that minimize operational risk  
+- Architecture choices that balance speed with durability  
+
+These workflows help teams move faster without sacrificing reliability.
+
+---
+
+## Product alignment and stakeholder clarity
+
+You translate complex modeling decisions into clear, actionable narratives that align teams and accelerate adoption.
+
+- Framing ambiguity and defining decision boundaries  
+- Communicating trade‑offs in language that resonates  
+- Ensuring systems fit the way organizations actually operate  
+
+This is how you turn technical work into business impact.
+
+---
+
+# How this shows up in your work
+
+Your expertise is reflected across your case studies: fraud detection, clinical workflow optimization, compliance automation, and more. Each project demonstrates your ability to combine modeling rigor with product thinking and operational clarity.

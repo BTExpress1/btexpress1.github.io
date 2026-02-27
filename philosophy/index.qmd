@@ -1,0 +1,77 @@
+---
+title: "Philosophy"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+# Philosophy
+
+Your work is grounded in clarity, trust, and disciplined thinking. You design systems that are explainable, resilient, and aligned with how real organizations make decisions. This page distills the principles that guide your approach to high‑stakes data science.
+
+---
+
+## Model the decision, not the dataset
+
+Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:
+
+- The structure of the decision  
+- The incentives and failure modes  
+- The operational environment where the model will live  
+
+This ensures the solution is aligned with business reality, not just statistical elegance.
+
+---
+
+## Reduce ambiguity before increasing complexity
+
+Ambiguity is the enemy of reliability. Before adding features, tuning models, or exploring architectures, you clarify:
+
+- What “good” looks like  
+- What failure means  
+- What constraints matter most  
+
+This creates a stable foundation for any technical work that follows.
+
+---
+
+## Design for reliability, not cleverness
+
+High‑stakes systems must be predictable, auditable, and robust under pressure. You prioritize:
+
+- Interpretability where it matters  
+- Hybrid approaches that blend rules and ML  
+- Monitoring that catches drift before it becomes a problem  
+
+The goal is not novelty. The goal is trust.
+
+---
+
+## Align stakeholders early and often
+
+A system is only as strong as the organization that uses it. You bring your TPM background into DS work by:
+
+- Framing ambiguity  
+- Driving alignment across technical and non‑technical teams  
+- Ensuring decisions are understood, not just implemented  
+
+This reduces friction and accelerates adoption.
+
+---
+
+## Build for the long term
+
+Short‑term wins matter, but durability matters more. You design systems that:
+
+- Survive organizational change  
+- Scale with new data and new constraints  
+- Remain explainable years after deployment  
+
+This is how you create lasting impact.
+
+---
+
+# What this means in practice
+
+Your philosophy shows up in every project: fraud detection, clinical workflow optimization, compliance automation, and beyond. It’s the through‑line that connects your modeling rigor, your product instincts, and your commitment to clarity.
