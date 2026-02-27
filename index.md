@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Bini Teklehaimanot"
-subtitle: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
+excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
 paginate: false
 
 feature_row:

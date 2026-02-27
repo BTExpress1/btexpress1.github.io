@@ -8,6 +8,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-include-cache
 
+footer:
+  feed: false
+  
 # Minimal Mistakes settings
 locale: "en-US"
 name: "Bini Teklehaimanot"
