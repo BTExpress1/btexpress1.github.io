@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#fraud-detection-system" id="toc-fraud-detection-system" class="nav-link active" data-scroll-target="#fraud-detection-system">Fraud Detection System</a></li>
+  <li><a href="#fraud-detection" id="toc-fraud-detection" class="nav-link active" data-scroll-target="#fraud-detection">Fraud Detection</a></li>
   <li><a href="#clinical-workflow-optimization" id="toc-clinical-workflow-optimization" class="nav-link" data-scroll-target="#clinical-workflow-optimization">Clinical Workflow Optimization</a></li>
   <li><a href="#compliance-automation" id="toc-compliance-automation" class="nav-link" data-scroll-target="#compliance-automation">Compliance Automation</a></li>
   <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
@@ -150,47 +150,92 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Work delivered in environments where decisions carry real consequences. These case studies highlight systems built to perform under operational pressure, regulatory expectations, and measurable performance standards. Each project reflects a commitment to clarity, rigor, and durable impact.</p>
-<section id="fraud-detection-system" class="level2">
-<h2 class="anchored" data-anchor-id="fraud-detection-system">Fraud Detection System</h2>
+<section id="fraud-detection" class="level2">
+<h2 class="anchored" data-anchor-id="fraud-detection">Fraud Detection</h2>
 <p><strong>Fintech | High‑stakes classification | Risk &amp; compliance</strong></p>
-<p>A multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.</p>
-<ul>
-<li>Reduced manual review load while increasing true‑positive rate<br>
-</li>
-<li>Introduced interpretable model components for auditability<br>
-</li>
-<li>Delivered measurable lift validated through backtesting and live A/B rollout</li>
-</ul>
-<p><em>Full write‑up coming soon.</em></p>
+<section id="context-and-constraints" class="level3">
+<h3 class="anchored" data-anchor-id="context-and-constraints">Context and constraints</h3>
+<p>The organization faced rising fraud exposure, inconsistent manual review processes, and strict regulatory expectations around fairness and explainability. Existing rules‑based systems were brittle and created operational bottlenecks.</p>
+</section>
+<section id="the-core-decision" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-decision">The core decision</h3>
+<p>Determine which transactions required intervention, and what the appropriate action should be for each case.</p>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>I reframed the problem from “predict fraud” to “optimize intervention decisions.” This allowed the system to incorporate cost asymmetry, operational capacity, and regulatory constraints directly into the model. I partnered with compliance, risk, and operations to define acceptable error modes and align thresholds with throughput and auditability.</p>
+</section>
+<section id="reliability-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="reliability-strategy">Reliability strategy</h3>
+<p>I designed the system to degrade gracefully under drift, implemented monitoring for false‑positive spikes, and built transparent decision paths to satisfy audit requirements. Guardrails handled edge cases, and fallback policies ensured safe behavior under uncertainty.</p>
+</section>
+<section id="outcome-shift" class="level3">
+<h3 class="anchored" data-anchor-id="outcome-shift">Outcome shift</h3>
+<p>Fraud losses stabilized, manual review volume dropped, and compliance gained a defensible, auditable system aligned with regulatory expectations.</p>
+</section>
+<section id="what-this-demonstrates" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates">What this demonstrates</h3>
+<p>The ability to design and deploy decision systems that balance risk, operational constraints, and regulatory requirements.</p>
 <hr>
+</section>
 </section>
 <section id="clinical-workflow-optimization" class="level2">
 <h2 class="anchored" data-anchor-id="clinical-workflow-optimization">Clinical Workflow Optimization</h2>
-<p><strong>Healthtech | Time‑series modeling | Operational efficiency</strong></p>
-<p>A decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.</p>
-<ul>
-<li>Modeled patient flow using time‑series and queueing insights<br>
-</li>
-<li>Quantified trade‑offs between staffing, scheduling, and patient load<br>
-</li>
-<li>Improved workflow predictability and reduced delays</li>
-</ul>
-<p><em>Full write‑up coming soon.</em></p>
+<p><strong>Healthtech | Workflow modeling | Operational efficiency</strong></p>
+<section id="context-and-constraints-1" class="level3">
+<h3 class="anchored" data-anchor-id="context-and-constraints-1">Context and constraints</h3>
+<p>Clinicians were operating under high cognitive load, fragmented workflows, and inconsistent triage decisions that created bottlenecks across the care continuum. Documentation requirements, routing ambiguity, and manual review steps reduced available time for patient care. Any system introduced into this environment needed to be safe, interpretable, and aligned with clinical judgment.</p>
+</section>
+<section id="the-core-decision-1" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-decision-1">The core decision</h3>
+<p>Determine which clinical tasks should be automated, escalated, or routed differently to reduce clinician burden while maintaining safety and consistency.</p>
+</section>
+<section id="approach-1" class="level3">
+<h3 class="anchored" data-anchor-id="approach-1">Approach</h3>
+<p>I mapped the end‑to‑end clinical workflow to identify decision points that created friction, delay, or unnecessary manual intervention. Working closely with clinical leaders, I defined safe automation boundaries and clarified where human oversight was essential. The resulting system combined lightweight predictive models with deterministic rules to ensure that automation supported, rather than replaced, clinical expertise.</p>
+</section>
+<section id="reliability-strategy-1" class="level3">
+<h3 class="anchored" data-anchor-id="reliability-strategy-1">Reliability strategy</h3>
+<p>Because clinical environments are high‑stakes and high‑variability, I built the system around reliability and safety. This included conservative thresholds, human‑in‑the‑loop review for ambiguous cases, continuous monitoring for drift, fail‑safe routing that escalated uncertainty, and transparent decision logic to maintain clinician trust.</p>
+</section>
+<section id="outcome-shift-1" class="level3">
+<h3 class="anchored" data-anchor-id="outcome-shift-1">Outcome shift</h3>
+<p>Clinicians regained meaningful time previously lost to manual triage and documentation tasks. Routing consistency improved, bottlenecks decreased, and operational throughput increased without compromising safety or clinical judgment.</p>
+</section>
+<section id="what-this-demonstrates-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates-1">What this demonstrates</h3>
+<p>The ability to design decision systems that respect domain expertise, reduce cognitive load, and improve workflow reliability in high‑pressure clinical environments.</p>
 <hr>
+</section>
 </section>
 <section id="compliance-automation" class="level2">
 <h2 class="anchored" data-anchor-id="compliance-automation">Compliance Automation</h2>
 <p><strong>Fintech | Rule‑based + ML hybrid | Auditability</strong></p>
-<p>A hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.</p>
-<ul>
-<li>Designed for explainability and traceability<br>
-</li>
-<li>Reduced manual compliance overhead<br>
-</li>
-<li>Integrated seamlessly with existing review workflows</li>
-</ul>
-<p><em>Full write‑up coming soon.</em></p>
+<section id="context-and-constraints-2" class="level3">
+<h3 class="anchored" data-anchor-id="context-and-constraints-2">Context and constraints</h3>
+<p>The organization faced increasing regulatory scrutiny and manual compliance processes that were slow, error‑prone, and difficult to audit. Automation needed to be precise, explainable, and aligned with legal interpretations.</p>
+</section>
+<section id="the-core-decision-2" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-decision-2">The core decision</h3>
+<p>Determine which cases required compliance review and what action should be taken to satisfy regulatory requirements.</p>
+</section>
+<section id="approach-2" class="level3">
+<h3 class="anchored" data-anchor-id="approach-2">Approach</h3>
+<p>I partnered with legal, compliance, and engineering to translate regulatory language into operational decision rules. I designed a hybrid system combining deterministic logic with statistical models to handle ambiguous or borderline cases.</p>
+</section>
+<section id="reliability-strategy-2" class="level3">
+<h3 class="anchored" data-anchor-id="reliability-strategy-2">Reliability strategy</h3>
+<p>I built audit‑ready decision logs, implemented conservative thresholds for high‑risk categories, and created a monitoring framework that alerted compliance teams to unusual patterns or potential misclassifications. These safeguards ensured the system remained transparent, defensible, and aligned with regulatory expectations.</p>
+</section>
+<section id="outcome-shift-2" class="level3">
+<h3 class="anchored" data-anchor-id="outcome-shift-2">Outcome shift</h3>
+<p>Review cycles shortened, error rates decreased, and compliance gained a transparent, scalable system that supported consistent decision‑making across evolving regulatory requirements.</p>
+</section>
+<section id="what-this-demonstrates-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates-2">What this demonstrates</h3>
+<p>The ability to operationalize regulatory requirements into reliable, auditable decision systems.</p>
 <hr>
+</section>
 </section>
 <section id="whats-next" class="level1">
 <h1>What’s next</h1>
