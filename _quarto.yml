@@ -10,11 +10,11 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Case Studies"
-          href: case-studies/index.qmd
+          href: case-studies/
       - text: "Philosophy"
-        href: philosophy/index.qmd
+        href: philosophy/
       - text: "Blog"
-        href: blog/index.qmd
+        href: blog/
 
 
 
