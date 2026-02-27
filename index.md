@@ -3,7 +3,7 @@ layout: home
 title: "Bini Teklehaimanot"
 subtitle: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
 
-# Remove empty posts section
+# Remove empty posts section 
 paginate: false
 
 # Feature blocks
