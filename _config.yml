@@ -8,11 +8,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-include-cache
 
+# Footer Settings
 footer:
-  feed: false
-  
+  feed: false # This disables the "Feed" link in the footer
+
 # Minimal Mistakes settings
 locale: "en-US"
 name: "Bini Teklehaimanot"
 repository: "BTExpress1/btexpress1.github.io"
-
