@@ -6,6 +6,8 @@ format:
     toc-depth: 2
 ---
 
+Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences.
+
 ## Model the decision, not the dataset
 
 Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:

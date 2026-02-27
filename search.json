@@ -4,14 +4,14 @@
     "href": "philosophy/index.html",
     "title": "Philosophy",
     "section": "",
-    "text": "Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance."
+    "text": "Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences."
   },
   {
     "objectID": "philosophy/index.html#model-the-decision-not-the-dataset",
     "href": "philosophy/index.html#model-the-decision-not-the-dataset",
     "title": "Philosophy",
-    "section": "",
-    "text": "Effective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance."
+    "section": "Model the decision, not the dataset",
+    "text": "Model the decision, not the dataset\nEffective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance."
   },
   {
     "objectID": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
@@ -46,14 +46,14 @@
     "href": "expertise/index.html",
     "title": "Expertise",
     "section": "",
-    "text": "Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.\n\nClassification and ranking systems for fraud and risk\n\nTime‑series and forecasting for operational planning\n\nHybrid rule‑based and ML architectures for auditability\n\nThese systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders."
+    "text": "Capabilities developed through hands‑on delivery in regulated and operationally complex environments. This work reflects depth built through real constraints, cross‑functional alignment, and long‑term ownership of system performance."
   },
   {
     "objectID": "expertise/index.html#highstakes-modeling-and-inference",
     "href": "expertise/index.html#highstakes-modeling-and-inference",
     "title": "Expertise",
-    "section": "",
-    "text": "Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.\n\nClassification and ranking systems for fraud and risk\n\nTime‑series and forecasting for operational planning\n\nHybrid rule‑based and ML architectures for auditability\n\nThese systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders."
+    "section": "High‑stakes modeling and inference",
+    "text": "High‑stakes modeling and inference\nYour modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.\n\nClassification and ranking systems for fraud and risk\n\nTime‑series and forecasting for operational planning\n\nHybrid rule‑based and ML architectures for auditability\n\nThese systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders."
   },
   {
     "objectID": "expertise/index.html#risk-and-compliance-frameworks",
@@ -88,14 +88,14 @@
     "href": "case-studies/index.html",
     "title": "Case Studies",
     "section": "",
-    "text": "Fintech | High‑stakes classification | Risk & compliance\nA multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.\n\nReduced manual review load while increasing true‑positive rate\n\nIntroduced interpretable model components for auditability\n\nDelivered measurable lift validated through backtesting and live A/B rollout\n\nFull write‑up coming soon."
+    "text": "Work delivered in environments where decisions carry real consequences. These case studies highlight systems built to perform under operational pressure, regulatory expectations, and measurable performance standards. Each project reflects a commitment to clarity, rigor, and durable impact."
   },
   {
     "objectID": "case-studies/index.html#fraud-detection-system",
     "href": "case-studies/index.html#fraud-detection-system",
     "title": "Case Studies",
-    "section": "",
-    "text": "Fintech | High‑stakes classification | Risk & compliance\nA multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.\n\nReduced manual review load while increasing true‑positive rate\n\nIntroduced interpretable model components for auditability\n\nDelivered measurable lift validated through backtesting and live A/B rollout\n\nFull write‑up coming soon."
+    "section": "Fraud Detection System",
+    "text": "Fraud Detection System\nFintech | High‑stakes classification | Risk & compliance\nA multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.\n\nReduced manual review load while increasing true‑positive rate\n\nIntroduced interpretable model components for auditability\n\nDelivered measurable lift validated through backtesting and live A/B rollout\n\nFull write‑up coming soon."
   },
   {
     "objectID": "case-studies/index.html#clinical-workflow-optimization",

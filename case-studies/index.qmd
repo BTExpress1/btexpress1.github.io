@@ -6,6 +6,8 @@ format:
     toc-depth: 2
 ---
 
+Work delivered in environments where decisions carry real consequences. These case studies highlight systems built to perform under operational pressure, regulatory expectations, and measurable performance standards. Each project reflects a commitment to clarity, rigor, and durable impact.
+
 ## Fraud Detection System  
 **Fintech | High‑stakes classification | Risk & compliance**
 
