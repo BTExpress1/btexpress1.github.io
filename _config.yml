@@ -1,53 +1,23 @@
-# Remote theme directory
-remote_theme: analytics-link/analytics-link.github.io
+title: "Bini Teklehaimanot"
+description: "Principal Data Scientist | High-stakes decision systems in healthtech and fintech"
+url: "https://btexpress1.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-remote-theme
+  - jekyll-include-cache
 
-#-------------------------------
-# General Site Settings
-title: Bini Teklehaimanot
-description: "Principal Data Science Consultant specializing in investment strategy, predictive modeling, and causal inference. My portfolio highlights applied machine learning projects with measurable ROI impact."
-baseurl: "" 
-url: "https://btexpress1.github.io"
+# Minimal Mistakes settings
+locale: "en-US"
+name: "Bini Teklehaimanot"
+repository: "BTExpress1/btexpress1.github.io"
 
-#-------------------------------
-# About Section
-subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
-location: "Kirkland, WA, USA"
-resume_url: /docs/resume.pdf
-avatar_image: /img/Bini.JPG
-
-#-------------------------------
-# Contact links
-linkedin: "https://www.linkedin.com/in/binilt"
-github: "https://github.com/btexpress1"
-email: "bini@amakeybeacon.com"
-
-paginate: 6
-paginate_path: "/page/:num"
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-defaults:
-  - scope:
-      type: posts
-    values:
-      layout: post
-      read_time: true
-      share: false
-
-#-------------------------------
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Navigation
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Case Studies"
+    url: /case-studies/
+  - title: "Blog"
+    url: https://btexpress1.github.io/blog/
