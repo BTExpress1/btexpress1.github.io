@@ -1,44 +1,52 @@
+---
+# Mandatory front matter for Jekyll processing
+---
+
+@import "minimal-mistakes";
+
 /* Brand colors */
 $brand-blue: #0057B8;
 $brand-yellow: #F4C300;
 
-/* Hero title */
-.page__title {
-  color: $brand-blue;
-}
-
-/* Navigation links */
+/* 1. Name/Logo area and Nav links */
+.site-title, 
 .masthead__menu-item a {
-  color: $brand-blue;
+  color: $brand-blue !important;
+  font-weight: bold;
 
   &:hover {
+    color: $brand-blue !important;
     border-bottom: 2px solid $brand-yellow;
   }
 }
 
-/* Feature block titles */
-.feature__title {
-  color: $brand-blue;
+/* 2. Hero excerpt (since we hid the Title to avoid duplication) */
+/* This adds the yellow underline to your "Principal Data Scientist" text */
+.page__hero-excerpt {
+  color: #fff; // Keeping text white for contrast on dark background
+  border-bottom: 3px solid $brand-yellow;
+  padding-bottom: 0.5em;
+  display: inline-block;
 }
 
-/* Buttons */
-.btn--primary {
-  background-color: $brand-blue;
-  border-color: $brand-blue;
-
-  &:hover {
-    background-color: $brand-yellow;
-    border-color: $brand-yellow;
-    color: #000;
+/* 3. Feature block titles */
+.archive__item-title {
+  color: $brand-blue !important;
+  
+  a {
+    color: $brand-blue !important;
   }
 }
 
-/* Thin, subtle accent underline for hero */
-.page__title::after {
-  content: "";
-  display: block;
-  width: 45px;
-  height: 2px;
-  background: $brand-yellow;
-  margin-top: 8px;
+/* 4. Buttons */
+.btn--primary {
+  background-color: $brand-blue !important;
+  border-color: $brand-blue !important;
+  color: #fff !important;
+
+  &:hover {
+    background-color: $brand-yellow !important;
+    border-color: $brand-yellow !important;
+    color: #000 !important;
+  }
 }

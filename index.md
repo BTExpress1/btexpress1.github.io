@@ -7,6 +7,7 @@ header:
   excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
   cta_label: "Connect on LinkedIn"
   cta_url: "https://www.linkedin.com/in/binilt/"
+  cta_btn_class: "btn--primary"
   
 feature_row:
   - title: "Case Studies"
