@@ -3,6 +3,7 @@ layout: splash
 title: "Bini Teklehaimanot"
 header:
   overlay_color: "#333"
+  overlay_filter: 0.5
   title: " "
   excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
   cta_label: "Connect on LinkedIn"
