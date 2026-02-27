@@ -1,11 +1,19 @@
 title: "Bini Teklehaimanot"
+logo: "/assets/images/logo.png"
 description: "Principal Data Scientist | High-stakes decision systems in healthtech and fintech"
 url: "https://btexpress1.github.io"
 baseurl: ""
 
+# This replaces the text title in the nav bar with logo
+masthead_title: " "
+
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
-plugins:
+# Disable the automatic feed generation link
+atom_feed:
+  hide: true
+  
+ plugins:
   - jekyll-include-cache
 
 # Footer Settings
