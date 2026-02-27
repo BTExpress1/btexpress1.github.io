@@ -60,7 +60,7 @@ main.content,
   min-height: 30vh;       
   text-align: center;
   width: 100vw;           
-  margin: 0 auto;
+  margin: 1rem auto;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
