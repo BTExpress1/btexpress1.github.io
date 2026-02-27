@@ -70,8 +70,3 @@ Short‑term wins matter, but durability matters more. You design systems that:
 
 This is how you create lasting impact.
 
----
-
-# What this means in practice
-
-Your philosophy shows up in every project: fraud detection, clinical workflow optimization, compliance automation, and beyond. It’s the through‑line that connects your modeling rigor, your product instincts, and your commitment to clarity.

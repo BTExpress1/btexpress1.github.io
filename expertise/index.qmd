@@ -57,9 +57,3 @@ You translate complex modeling decisions into clear, actionable narratives that 
 - Ensuring systems fit the way organizations actually operate  
 
 This is how you turn technical work into business impact.
-
----
-
-# How this shows up in your work
-
-Your expertise is reflected across your case studies: fraud detection, clinical workflow optimization, compliance automation, and more. Each project demonstrates your ability to combine modeling rigor with product thinking and operational clarity.
