@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Bini Teklehaimanot"
+  navbar:
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Case Studies"
+        href: case-studies/index.qmd
+      - text: "Philosophy"
+        href: philosophy/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
