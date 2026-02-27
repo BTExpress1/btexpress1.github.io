@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,65 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>html{ scroll-behavior: smooth; }</style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -137,7 +78,7 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
@@ -145,32 +86,27 @@ window.Quarto = {
     <img src="../assets/images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../about.qmd"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../case-studies/index.html" aria-current="page"> 
+    <a class="nav-link" href="../case-studies/"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../philosophy/index.qmd"> 
+    <a class="nav-link" href="../philosophy/"> 
 <span class="menu-text">Philosophy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.qmd"> 
+    <a class="nav-link" href="../blog/"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -179,15 +115,26 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#case-studies" id="toc-case-studies" class="nav-link active" data-scroll-target="#case-studies">Case Studies</a>
+  <ul class="collapse">
+  <li><a href="#fraud-detection-system" id="toc-fraud-detection-system" class="nav-link" data-scroll-target="#fraud-detection-system">Fraud Detection System</a></li>
+  <li><a href="#clinical-workflow-optimization" id="toc-clinical-workflow-optimization" class="nav-link" data-scroll-target="#clinical-workflow-optimization">Clinical Workflow Optimization</a></li>
+  <li><a href="#compliance-automation" id="toc-compliance-automation" class="nav-link" data-scroll-target="#compliance-automation">Compliance Automation</a></li>
+  </ul></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Case Studies</h1>
-<p class="subtitle lead">Bridging the gap between technical complexity and business outcomes.</p>
 </div>
 
 
@@ -204,17 +151,61 @@ window.Quarto = {
 </header>
 
 
-<p>Developing high-stakes decision systems requires more than just model accuracy; it requires alignment with regulatory risk and operational constraints.</p>
+<section id="case-studies" class="level1">
+<h1>Case Studies</h1>
+<p>You design and deliver high‑stakes decision systems across healthtech and fintech. Each case study highlights how you combine modeling rigor, risk awareness, and product alignment to create systems that work in the real world.</p>
+<hr>
+<section id="fraud-detection-system" class="level2">
+<h2 class="anchored" data-anchor-id="fraud-detection-system">Fraud Detection System</h2>
+<p><strong>Fintech | High‑stakes classification | Risk &amp; compliance</strong></p>
+<p>A multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.</p>
+<ul>
+<li>Reduced manual review load while increasing true‑positive rate<br>
+</li>
+<li>Introduced interpretable model components for auditability<br>
+</li>
+<li>Delivered measurable lift validated through backtesting and live A/B rollout</li>
+</ul>
+<p><em>Full write‑up coming soon.</em></p>
+<hr>
+</section>
+<section id="clinical-workflow-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-workflow-optimization">Clinical Workflow Optimization</h2>
+<p><strong>Healthtech | Time‑series modeling | Operational efficiency</strong></p>
+<p>A decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.</p>
+<ul>
+<li>Modeled patient flow using time‑series and queueing insights<br>
+</li>
+<li>Quantified trade‑offs between staffing, scheduling, and patient load<br>
+</li>
+<li>Improved workflow predictability and reduced delays</li>
+</ul>
+<p><em>Full write‑up coming soon.</em></p>
+<hr>
+</section>
+<section id="compliance-automation" class="level2">
+<h2 class="anchored" data-anchor-id="compliance-automation">Compliance Automation</h2>
+<p><strong>Fintech | Rule‑based + ML hybrid | Auditability</strong></p>
+<p>A hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.</p>
+<ul>
+<li>Designed for explainability and traceability<br>
+</li>
+<li>Reduced manual compliance overhead<br>
+</li>
+<li>Integrated seamlessly with existing review workflows</li>
+</ul>
+<p><em>Full write‑up coming soon.</em></p>
+<hr>
+</section>
+</section>
+<section id="whats-next" class="level1">
+<h1>What’s next</h1>
+<p>More case studies will be added over time, including modeling experiments, micro‑projects, and deeper dives into your decision‑system design philosophy.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -620,4 +611,5 @@ window.Quarto = {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -8,13 +8,13 @@ website:
     collapse: false
     right:
       - text: "About"
-      href: about.qmd
+        href: about.qmd
       - text: "Case Studies"
-      href: case-studies/
+        href: case-studies/
       - text: "Philosophy"
-      href: philosophy/
+        href: philosophy/
       - text: "Blog"
-      href: blog/
+        href: blog/
 
 format:
   html:
