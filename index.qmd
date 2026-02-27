@@ -1,7 +1,9 @@
 ---
 title: ""
+page-layout: custom
 ---
 
+```{=html}
 <section class="hero-container">
   <h1 class="hero-title">Bini Teklehaimanot</h1>
   <p class="hero-subtitle">Principal Data Scientist · Decision Systems · Healthtech & Fintech</p>
@@ -44,3 +46,5 @@ title: ""
   </div>
 
 </section>
+```
+
