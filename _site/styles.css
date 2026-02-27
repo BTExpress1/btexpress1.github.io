@@ -1,70 +1,67 @@
-.hero-container {
-  max-width: 900px;
-  margin: 3rem auto 2rem auto;
-  text-align: center;
-}
-
-.hero-logo {
-  width: 150px;
-  margin-bottom: 1rem;
-}
-
-.hero-title {
-  font-size: 2.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: #444;
-  margin-bottom: 1.5rem;
-}
-
-.hero-cta {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #0057B8;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 1.1rem;
-  transition: background-color 0.2s ease;
-}
-
-.hero-cta:hover {
-  background-color: #F2C300;
-}
-
+/* --- Navigation Bar --- */
 .navbar {
-  background-color: #0057B8 !important;
-}
-
-.navbar a, .navbar .navbar-brand {
-  color: white !important;
-}
-
-.navbar a:hover {
-  color: #F2C300 !important;
-}
-
-/* 1. Make Logo & Navbar Header Roomy */
-.navbar-brand img {
-  max-height: 55px !important; /* Increases logo visibility */
-}
-
-.navbar {
-  background-color: #0057B8 !important;
+  /* Using a dark Slate/Charcoal to make the Yellow pop */
+  background-color: #1a1a1a !important; 
   padding-top: 0.8rem !important;
   padding-bottom: 0.8rem !important;
 }
 
-/* 2. Fix Search Icon Visibility */
-/* Quarto's search icon is often an SVG or font icon; this forces it to white */
-.quarto-search-toggle, .quarto-navigation-tool {
-  color: white !important;
+/* Fix Logo Size - making it slightly larger for visibility */
+.navbar-brand img {
+  max-height: 50px !important; 
+  width: auto;
 }
 
-/* 3. Global Nav Link Hover */
+/* Ensure Nav Links are crisp white on the dark background */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
 .navbar-nav .nav-link:hover {
-  color: #F2C300 !important;
+  color: #F2C300 !important; /* Yellow hover to match logo */
+}
+
+/* Fix Search Magnifier for dark background */
+.quarto-search-toggle, .quarto-navigation-tool {
+  color: #ffffff !important;
+}
+
+/* --- Hero Section --- */
+.hero-container {
+  max-width: 900px;
+  margin: 6rem auto; 
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0; /* REMOVES the gap above the subheader */
+  color: #0057B8; 
+}
+
+.hero-subtitle {
+  font-size: 1.4rem;
+  color: #444;
+  margin-top: 0.2rem; /* TIGHT spacing to the name */
+  margin-bottom: 2.5rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 0.8rem 2.2rem;
+  background-color: #0057B8;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.hero-cta:hover {
+  background-color: #F2C300; 
+  color: #000 !important;
+  transform: translateY(-2px); /* Subtle lift effect */
 }

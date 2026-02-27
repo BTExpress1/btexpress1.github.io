@@ -1,0 +1,14 @@
+---
+title: "Case Studies"
+subtitle: "Bridging the gap between technical complexity and business outcomes."
+listing:
+  contents: "." # This tells Quarto to list all .qmd files in this folder
+  type: grid # You can also use 'default' or 'table'
+  sort: "date desc"
+  categories: true # Adds a sidebar filter (e.g., Healthtech, Fintech)
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, subtitle, reading-time]
+---
+
+Developing high-stakes decision systems requires more than just model accuracy; it requires alignment with regulatory risk and operational constraints.
