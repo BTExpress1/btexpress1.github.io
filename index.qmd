@@ -3,8 +3,46 @@ title: ""
 page-layout: custom
 ---
 
-<div class="hero-container">
+<section class="hero-container">
   <h1 class="hero-title">Bini Teklehaimanot</h1>
   <p class="hero-subtitle">Principal Data Scientist · Decision Systems · Healthtech & Fintech</p>
   <a href="https://www.linkedin.com/in/binilt" target="_blank" class="hero-cta">Connect on LinkedIn</a>
-</div>
+</section>
+
+<section class="three-columns">
+
+  <div class="column">
+    <h3>Case Studies</h3>
+    <p>You design and deliver high‑stakes decision systems for healthtech and fintech. Each project blends modeling rigor, risk awareness, and clear business alignment.</p>
+    <ul>
+      <li>Fraud detection with measurable lift</li>
+      <li>Clinical workflow optimization</li>
+      <li>Compliance automation and auditability</li>
+    </ul>
+    <a class="column-link" href="/case-studies/">View case studies →</a>
+  </div>
+
+  <div class="column">
+    <h3>Philosophy</h3>
+    <p>Your work is grounded in clarity, trust, and disciplined thinking. You build systems that are explainable, resilient, and aligned with how real organizations make decisions.</p>
+    <ul>
+      <li>Model the decision, not the dataset</li>
+      <li>Reduce ambiguity before increasing complexity</li>
+      <li>Design for reliability, not cleverness</li>
+    </ul>
+    <a class="column-link" href="/philosophy/">Read the full philosophy →</a>
+  </div>
+
+  <div class="column">
+    <h3>Expertise</h3>
+    <p>You operate at the intersection of data science, risk, and product strategy. Your TPM background strengthens your ability to align stakeholders and deliver durable systems.</p>
+    <ul>
+      <li>High‑stakes modeling and inference</li>
+      <li>Risk and compliance frameworks</li>
+      <li>Technical workflow design and architecture</li>
+    </ul>
+    <a class="column-link" href="/expertise/">Explore expertise →</a>
+  </div>
+
+</section>
+
