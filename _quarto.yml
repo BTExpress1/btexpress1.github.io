@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: ""   # hide text title
+  title: "Bini Teklehaimanot - Principal Data scientist" 
   navbar:
     logo: assets/images/logo.png
     collapse: false
