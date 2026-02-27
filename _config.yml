@@ -14,7 +14,7 @@ name: "Bini Teklehaimanot"
 repository: "BTExpress1/btexpress1.github.io"
 
 # Navigation
-nav:
+navigation:
   - title: "About"
     url: /about/
   - title: "Case Studies"
