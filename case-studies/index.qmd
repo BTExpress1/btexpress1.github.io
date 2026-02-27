@@ -1,14 +1,56 @@
 ---
 title: "Case Studies"
-subtitle: "Bridging the gap between technical complexity and business outcomes."
-listing:
-  contents: "." # This tells Quarto to list all .qmd files in this folder
-  type: grid # You can also use 'default' or 'table'
-  sort: "date desc"
-  categories: true # Adds a sidebar filter (e.g., Healthtech, Fintech)
-  sort-ui: false
-  filter-ui: false
-  fields: [image, date, title, subtitle, reading-time]
+format:
+  html:
+    toc: true
+    toc-depth: 2
 ---
 
-Developing high-stakes decision systems requires more than just model accuracy; it requires alignment with regulatory risk and operational constraints.
+# Case Studies
+
+You design and deliver high‑stakes decision systems across healthtech and fintech. Each case study highlights how you combine modeling rigor, risk awareness, and product alignment to create systems that work in the real world.
+
+---
+
+## Fraud Detection System  
+**Fintech | High‑stakes classification | Risk & compliance**
+
+A multi‑stage fraud detection pipeline designed to reduce false positives while improving real fraud capture. The system balanced model accuracy with operational constraints and regulatory expectations.
+
+- Reduced manual review load while increasing true‑positive rate  
+- Introduced interpretable model components for auditability  
+- Delivered measurable lift validated through backtesting and live A/B rollout  
+
+*Full write‑up coming soon.*
+
+---
+
+## Clinical Workflow Optimization  
+**Healthtech | Time‑series modeling | Operational efficiency**
+
+A decision‑support model that identified bottlenecks in clinical workflows and recommended interventions that improved throughput without compromising care quality.
+
+- Modeled patient flow using time‑series and queueing insights  
+- Quantified trade‑offs between staffing, scheduling, and patient load  
+- Improved workflow predictability and reduced delays  
+
+*Full write‑up coming soon.*
+
+---
+
+## Compliance Automation  
+**Fintech | Rule‑based + ML hybrid | Auditability**
+
+A hybrid system combining deterministic rules with machine‑learning signals to automate compliance checks while maintaining transparency for regulators and internal auditors.
+
+- Designed for explainability and traceability  
+- Reduced manual compliance overhead  
+- Integrated seamlessly with existing review workflows  
+
+*Full write‑up coming soon.*
+
+---
+
+# What’s next
+
+More case studies will be added over time, including modeling experiments, micro‑projects, and deeper dives into your decision‑system design philosophy.
