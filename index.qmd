@@ -1,5 +1,6 @@
 ---
 title: ""
+page-layout: full
 ---
 
 <div class="hero-container">
@@ -7,5 +8,3 @@ title: ""
   <p class="hero-subtitle">Principal Data Scientist · Decision Systems · Healthtech & Fintech</p>
   <a href="https://www.linkedin.com/in/binilt" target="_blank" class="hero-cta">Connect on LinkedIn</a>
 </div>
-
-

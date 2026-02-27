@@ -1,67 +1,66 @@
-/* --- Navigation Bar --- */
-.navbar {
-  /* Using a dark Slate/Charcoal to make the Yellow pop */
-  background-color: #1a1a1a !important; 
-  padding-top: 0.8rem !important;
-  padding-bottom: 0.8rem !important;
+/* --- Global Overrides --- */
+#quarto-content.page-columns {
+  display: block !important; /* Removes the sidebar gutter that causes off-centering */
 }
 
-/* Fix Logo Size - making it slightly larger for visibility */
+.page-layout-article {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+  background-color: #1a1a1a !important; 
+  padding: 1.5rem 2rem !important; 
+}
+
 .navbar-brand img {
-  max-height: 50px !important; 
+  max-height: 100px !important; /* Maximizing for your request */
   width: auto;
 }
 
-/* Ensure Nav Links are crisp white on the dark background */
-.navbar-nav .nav-link {
-  color: #ffffff !important;
-  font-weight: 500;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #F2C300 !important; /* Yellow hover to match logo */
-}
-
-/* Fix Search Magnifier for dark background */
-.quarto-search-toggle, .quarto-navigation-tool {
-  color: #ffffff !important;
-}
-
-/* --- Hero Section --- */
+/* --- The Modern Hero --- */
 .hero-container {
-  max-width: 900px;
-  margin: 6rem auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh; /* Centers content vertically in the viewport */
   text-align: center;
+  padding: 2rem;
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 4.5rem; /* Larger, more "Principal" presence */
   font-weight: 800;
-  letter-spacing: -1px;
-  margin-bottom: 0; /* REMOVES the gap above the subheader */
   color: #0057B8; 
+  margin: 0; 
+  line-height: 1;
 }
 
 .hero-subtitle {
-  font-size: 1.4rem;
-  color: #444;
-  margin-top: 0.2rem; /* TIGHT spacing to the name */
-  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 400;
+  margin-top: 1rem; /* Tight but breathable gap */
+  margin-bottom: 3rem;
+  max-width: 800px;
 }
 
 .hero-cta {
   display: inline-block;
-  padding: 0.8rem 2.2rem;
+  padding: 1rem 3rem;
   background-color: #0057B8;
   color: white !important;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 50px; /* Modern pill shape */
   font-weight: 600;
-  transition: all 0.2s ease;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .hero-cta:hover {
   background-color: #F2C300; 
   color: #000 !important;
-  transform: translateY(-2px); /* Subtle lift effect */
+  transform: scale(1.05); /* Interactive pop */
 }
