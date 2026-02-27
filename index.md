@@ -1,9 +1,8 @@
 ---
-layout: splash  # Changed from home to splash to support feature_rows
+layout: splash
 title: "Bini Teklehaimanot"
-header:
-  overlay_filter: 0.5 # Optional: helps text pop if you add an image later
-excerpt: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
+subtitle: "Principal Data Scientist | High‑stakes decision systems in healthtech and fintech"
+paginate: false
 
 feature_row:
   - title: "Case Studies"
@@ -25,4 +24,4 @@ feature_row:
 
 {% include feature_row %}
 
-Welcome. This site is being rebuilt with a focus on decision‑system case studies...
+Welcome. This site is being rebuilt with a focus on decision‑system case studies, modeling philosophy, and high‑impact data science work. New content will be added over time.
