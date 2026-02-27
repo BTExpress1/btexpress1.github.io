@@ -1,6 +1,5 @@
 ---
 title: ""
-page-layout: custom
 ---
 
 <section class="hero-container">
