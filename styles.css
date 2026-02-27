@@ -46,3 +46,25 @@
 .navbar a:hover {
   color: #F2C300 !important;
 }
+
+/* 1. Make Logo & Navbar Header Roomy */
+.navbar-brand img {
+  max-height: 55px !important; /* Increases logo visibility */
+}
+
+.navbar {
+  background-color: #0057B8 !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+
+/* 2. Fix Search Icon Visibility */
+/* Quarto's search icon is often an SVG or font icon; this forces it to white */
+.quarto-search-toggle, .quarto-navigation-tool {
+  color: white !important;
+}
+
+/* 3. Global Nav Link Hover */
+.navbar-nav .nav-link:hover {
+  color: #F2C300 !important;
+}

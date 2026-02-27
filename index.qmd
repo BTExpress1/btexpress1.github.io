@@ -1,10 +1,8 @@
 ---
-title: "Bini Teklehaimanot"
+title: ""
 ---
 
 <div class="hero-container">
-
-  <img src="assets/images/logo.png" alt="BT Logo" class="hero-logo">
 
   <h1 class="hero-title">Bini Teklehaimanot</h1>
 
@@ -12,7 +10,7 @@ title: "Bini Teklehaimanot"
     Principal Data Scientist · Decision Systems · Healthtech & Fintech
   </p>
 
-  <a href="https://www.linkedin.com/in/binilt" class="hero-cta">
+  <a href="https://www.linkedin.com/in/binilt" target="_blank" class="hero-cta">
     Connect on LinkedIn
   </a>
 
