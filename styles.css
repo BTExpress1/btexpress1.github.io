@@ -20,7 +20,7 @@ body, #quarto-content, .page-layout-custom, main {
 
 /* Nav Links - Yellow for visibility */
 .navbar-nav .nav-link {
-  color: #F2C300 !important; /* Brand Yellow */
+  color: #F2C300 !important; 
   font-weight: 600;
   font-size: 1.1rem;
   transition: color 0.2s ease;
@@ -30,14 +30,19 @@ body, #quarto-content, .page-layout-custom, main {
   color: #ffffff !important;
 }
 
-/* Search Icon - Yellow */
+/* --- Yellow Magnifier Fix --- */
 .quarto-search-toggle, 
-.quarto-navigation-tool {
+.quarto-navigation-tool,
+.quarto-search-toggle i, 
+.quarto-search-toggle svg {
   color: #F2C300 !important;
+  fill: #F2C300 !important;
 }
 
-.quarto-search-toggle:hover {
+.quarto-search-toggle:hover i,
+.quarto-search-toggle:hover svg {
   color: #ffffff !important;
+  fill: #ffffff !important;
 }
 
 /* --- Hero Section --- */
@@ -55,7 +60,7 @@ body, #quarto-content, .page-layout-custom, main {
 .hero-title {
   font-size: 4.5rem;
   font-weight: 800;
-  color: #0057B8; /* Brand Blue */
+  color: #0057B8; 
   margin: 0;
   line-height: 0.9;
 }
@@ -63,7 +68,7 @@ body, #quarto-content, .page-layout-custom, main {
 .hero-subtitle {
   font-size: 1.5rem;
   color: #444;
-  margin-top: 8px; /* Tight spacing to the name */
+  margin-top: 8px; 
   margin-bottom: 2.5rem;
 }
 
@@ -71,18 +76,18 @@ body, #quarto-content, .page-layout-custom, main {
 .hero-cta {
   display: inline-block;
   padding: 1rem 3rem;
-  background-color: #0057B8; /* Brand Blue */
+  background-color: #0057B8; 
   color: white !important;
   text-decoration: none;
-  border-radius: 50px; /* Modern pill shape */
+  border-radius: 50px; 
   font-weight: 600;
   font-size: 1.2rem;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .hero-cta:hover {
-  background-color: #F2C300; /* Brand Yellow */
-  color: #000 !important; /* Black text for contrast on yellow */
+  background-color: #F2C300; 
+  color: #000 !important; 
   transform: scale(1.05);
   text-decoration: none;
 }
