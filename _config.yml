@@ -4,7 +4,7 @@ description: "Principal Data Scientist | High-stakes decision systems in healtht
 url: "https://btexpress1.github.io"
 baseurl: ""
 
-# This replaces the text title in the nav bar with logo
+# Replaces text title in nav bar with logo
 masthead_title: " "
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
@@ -12,8 +12,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 # Disable the automatic feed generation link
 atom_feed:
   hide: true
-  
- plugins:
+
+plugins:
   - jekyll-include-cache
 
 # Footer Settings
@@ -22,14 +22,14 @@ footer:
   show_powered_by: false
   links: []
 
+# Custom CSS
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Custom CSS (this is what enables your blue + yellow branding) 
-sass: 
-   sass_dir: _sass 
-   style: compressed 
-   
-# Load your custom stylesheet 
-include: - assets/css/custom.scss
+# Load your custom stylesheet
+include:
+  - assets/css/custom.scss
 
 # Minimal Mistakes settings
 locale: "en-US"

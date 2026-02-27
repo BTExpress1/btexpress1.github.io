@@ -33,12 +33,12 @@ $brand-yellow: #F4C300;
   }
 }
 
-/* Accent underline for hero */
+/* Thin, subtle accent underline for hero */
 .page__title::after {
   content: "";
   display: block;
-  width: 60px;
-  height: 4px;
+  width: 45px;
+  height: 2px;
   background: $brand-yellow;
-  margin-top: 10px;
+  margin-top: 8px;
 }
