@@ -1,35 +1,40 @@
 ---
-# Mandatory front matter for Jekyll processing
 ---
-
 @import "minimal-mistakes";
 
-/* Brand colors */
-$brand-blue: #0057B8;
-$brand-yellow: #F4C300;
-
-/* 1. Name/Logo area and Nav links */
-.site-title, 
-.masthead__menu-item a {
-  color: $brand-blue !important;
-  font-weight: bold;
-
-  &:hover {
-    color: $brand-blue !important;
-    border-bottom: 2px solid $brand-yellow;
-  }
+/* 1. Make Logo Bigger */
+.logo img {
+  max-height: 80px !important; // Adjust this number until it looks right
+  width: auto;
 }
 
-/* 2. Hero excerpt (since we hid the Title to avoid duplication) */
-/* This adds the yellow underline to your "Principal Data Scientist" text */
+/* 2. Remove Powered By / Footer Feed */
+.site-footer__copyright, 
+.footer__links {
+  display: none !important;
+}
+
+/* 3. Hero Text & Accent Underline */
 .page__hero-excerpt {
-  color: #fff; // Keeping text white for contrast on dark background
-  border-bottom: 3px solid $brand-yellow;
-  padding-bottom: 0.5em;
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  border-bottom: 4px solid #F4C300 !important; // Your brand yellow
+  padding-bottom: 10px;
   display: inline-block;
 }
 
-/* 3. Feature block titles */
+/* 4. Branding Colors (Ensure !important is used) */
+.btn--primary {
+  background-color: #0057B8 !important;
+  border-color: #0057B8 !important;
+  &:hover {
+    background-color: #F4C300 !important;
+    color: #000 !important;
+  }
+}
+
+
+/* 5. Feature block titles */
 .archive__item-title {
   color: $brand-blue !important;
   
@@ -38,7 +43,7 @@ $brand-yellow: #F4C300;
   }
 }
 
-/* 4. Buttons */
+/* 6. Buttons */
 .btn--primary {
   background-color: $brand-blue !important;
   border-color: $brand-blue !important;
