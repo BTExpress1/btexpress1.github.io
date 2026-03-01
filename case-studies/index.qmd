@@ -11,8 +11,6 @@ Work delivered in environments where decisions carry real consequences. These ca
 ## Fraud Detection  
 **Fintech | High‑stakes classification | Risk & compliance**
 
-## Fraud Detection  
-**Fintech | High‑stakes classification | Risk & compliance**
 
 ![](/assets/images/fraud-detection-banner.png){.banner fig-alt="Visualization of a fraud detection decision system showing intervention thresholds."}
 

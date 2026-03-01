@@ -95,13 +95,6 @@
     "href": "case-studies/index.html#fraud-detection",
     "title": "Case Studies",
     "section": "Fraud Detection",
-    "text": "Fraud Detection\nFintech | High‑stakes classification | Risk & compliance"
-  },
-  {
-    "objectID": "case-studies/index.html#fraud-detection-1",
-    "href": "case-studies/index.html#fraud-detection-1",
-    "title": "Case Studies",
-    "section": "Fraud Detection",
     "text": "Fraud Detection\nFintech | High‑stakes classification | Risk & compliance\n\n\nContext and constraints\nThe organization faced rising fraud exposure, inconsistent manual review processes, and strict regulatory expectations around fairness and explainability. Existing rules‑based systems were brittle and created operational bottlenecks.\n\n\nThe core decision\nDetermine which transactions required intervention, and what the appropriate action should be for each case.\n\n\nApproach\nI reframed the problem from “predict fraud” to “optimize intervention decisions.” This allowed the system to incorporate cost asymmetry, operational capacity, and regulatory constraints directly into the model. I partnered with compliance, risk, and operations to define acceptable error modes and align thresholds with throughput and auditability.\n\n\nReliability strategy\nI designed the system to degrade gracefully under drift, implemented monitoring for false‑positive spikes, and built transparent decision paths to satisfy audit requirements. Guardrails handled edge cases, and fallback policies ensured safe behavior under uncertainty.\n\n\nOutcome shift\nFraud losses stabilized, manual review volume dropped, and compliance gained a defensible, auditable system aligned with regulatory expectations.\n\n\nWhat this demonstrates\nThe ability to design and deploy decision systems that balance risk, operational constraints, and regulatory requirements."
   },
   {
