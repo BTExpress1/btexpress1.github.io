@@ -11,7 +11,7 @@ Work delivered in environments where decisions carry real consequences. These ca
 ## Fraud Detection  
 **Fintech | High‑stakes classification | Risk & compliance**
 
-![Fraud detection system visualization](images/fraud-detection-banner.png){.banner}
+![Fraud detection system visualization](assets/images/fraud-detection-banner.png){.banner}
 
 ### Context and constraints  
 The organization faced rising fraud exposure, inconsistent manual review processes, and strict regulatory expectations around fairness and explainability. Existing rules‑based systems were brittle and created operational bottlenecks.
@@ -36,7 +36,7 @@ The ability to design and deploy decision systems that balance risk, operational
 ## Clinical Workflow Optimization  
 **Healthtech | Workflow modeling | Operational efficiency**
 
-![Clinical workflow optimization diagram](images/clinical-workflow-banner.png){.banner}
+![Clinical workflow optimization diagram](assets/images/clinical-workflow-banner.png){.banner}
 
 ### Context and constraints  
 Clinicians were operating under high cognitive load, fragmented workflows, and inconsistent triage decisions that created bottlenecks across the care continuum. Documentation requirements, routing ambiguity, and manual review steps reduced available time for patient care. Any system introduced into this environment needed to be safe, interpretable, and aligned with clinical judgment.
@@ -61,7 +61,7 @@ The ability to design decision systems that respect domain expertise, reduce cog
 ## Compliance Automation  
 **Fintech | Rule‑based + ML hybrid | Auditability**
 
-![Compliance automation architecture](images/compliance-automation-banner.png){.banner}
+![Compliance automation architecture](assets/images/compliance-automation-banner.png){.banner}
 
 ### Context and constraints  
 The organization faced increasing regulatory scrutiny and manual compliance processes that were slow, error‑prone, and difficult to audit. Automation needed to be precise, explainable, and aligned with legal interpretations.
