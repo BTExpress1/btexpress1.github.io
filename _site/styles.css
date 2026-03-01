@@ -158,6 +158,15 @@ main.content,
   font-size: 0.95rem;
 }
 
+.banner {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  display: block;
+}
+
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .three-columns {
