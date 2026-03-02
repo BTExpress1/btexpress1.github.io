@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Applied Decision Systems – Bini Teklehaimanot - Principal Data scientist</title>
+<title>Probabilistic Retention Intervention System – Bini Teklehaimanot - Principal Data scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Applied Decision Systems</h1>
+<h1 class="title">Probabilistic Retention Intervention System</h1>
 </div>
 
 
@@ -136,46 +136,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="ads-container">
-  
-  <p class="ads-intro">
-    A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
-  </p>
+<section id="decision-context" class="level3">
+<h3 class="anchored" data-anchor-id="decision-context">Decision Context</h3>
+<p>Attrition prediction is only useful when it changes retention decisions. In practice, leaders need a calibrated way to decide who to intervene on, when to act, and what actions are justified given limited budget and manager capacity.</p>
+<p>This project reframes attrition modeling into a decision-support system for targeted retention interventions.</p>
+<hr>
+</section>
+<section id="the-core-decision" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-decision">The Core Decision</h3>
+<p>Given employee signals and a predicted attrition risk, which employees should receive intervention, what type of intervention is appropriate, and how should thresholds shift as capacity changes?</p>
+<p>Constraints considered:</p>
+<ul>
+<li>Limited HR and manager bandwidth<br>
+</li>
+<li>Intervention cost versus expected retention benefit<br>
+</li>
+<li>Risk of unfair or biased targeting<br>
+</li>
+<li>Need for transparent rationale</li>
+</ul>
+<hr>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<ul>
+<li>Built a probability-based attrition risk model<br>
+</li>
+<li>Focused on calibration and ranking rather than a single yes/no label<br>
+</li>
+<li>Designed threshold bands aligned to action levels:
+<ul>
+<li>Monitor</li>
+<li>Manager check-in</li>
+<li>Retention package / role adjustment<br>
+</li>
+</ul></li>
+<li>Highlighted driver visibility so actions can be justified and audited<br>
+</li>
+<li>Framed evaluation in terms of decision utility, not just accuracy</li>
+</ul>
+<hr>
+</section>
+<section id="system-pattern" class="level3">
+<h3 class="anchored" data-anchor-id="system-pattern">System Pattern</h3>
+<ol type="1">
+<li>Ingest HR and performance signals<br>
+</li>
+<li>Validate and standardize inputs<br>
+</li>
+<li>Score attrition probability<br>
+</li>
+<li>Rank employees by risk and expected intervention value<br>
+</li>
+<li>Apply action thresholds based on capacity and cost<br>
+</li>
+<li>Log decisions and top drivers for review</li>
+</ol>
+<p>This pattern supports responsible retention decisions at scale.</p>
+<hr>
+</section>
+<section id="what-this-demonstrates" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates">What This Demonstrates</h3>
+<ul>
+<li>Turning prediction into intervention policy<br>
+</li>
+<li>Capacity-aware thresholding<br>
+</li>
+<li>Action band design (monitor vs intervene)<br>
+</li>
+<li>Transparent decision rationale for stakeholder trust</li>
+</ul>
+<hr>
+</section>
+<section id="technical-stack" class="level3">
+<h3 class="anchored" data-anchor-id="technical-stack">Technical Stack</h3>
+<p>Python<br>
+Pandas<br>
+Scikit-learn<br>
+Classification modeling<br>
+Model evaluation and calibration concepts</p>
+<hr>
+</section>
+<section id="source-code" class="level3">
+<h3 class="anchored" data-anchor-id="source-code">Source Code</h3>
+<p><a href="https://github.com/BTExpress1/Employee_Attrition_Prediction">View Code on GitHub</a></p>
 
-  <div class="ads-grid">
 
-    <div class="ads-card">
-      <h3 class="anchored">Clinical Access Routing Decision Framework</h3>
-      <p>Transforms healthcare access analysis into a structured routing and prioritization decision system aligned with capacity and equity constraints.</p>
-      <span class="ads-tag">Healthcare</span>
-      <a href="../applied-decision-systems/clinical-access-routing-framework/" class="ads-button">View Project</a>
-    </div>
-    
-    <div class="ads-card">
-      <h3 class="anchored">Financial Anomaly Triage Framework</h3>
-      <p>Reframes fraud detection into a ranked triage system that prioritizes investigative effort under asymmetric risk and audit requirements.</p>
-      <span class="ads-tag">Fintech</span>
-      <a href="../applied-decision-systems/financial-anomaly-triage-framework/" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Probabilistic Retention Intervention System</h3>
-      <p>Converts attrition prediction into calibrated intervention bands aligned with HR capacity and retention economics.</p>
-      <span class="ads-tag">Workforce Analytics</span>
-      <a href="../applied-decision-systems/probabilistic-retention-intervention-system/" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Credit Risk Threshold Design Framework</h3>
-      <p>Models approval thresholds and portfolio tradeoffs to simulate real-world credit decision logic under capital constraints.</p>
-      <span class="ads-tag">Risk Systems</span>
-      <a href="../applied-decision-systems/credit-risk-threshold-design-framework/" class="ads-button">View Project</a>
-    </div>
-
-  </div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

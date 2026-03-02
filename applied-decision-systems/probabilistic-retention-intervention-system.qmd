@@ -1,0 +1,76 @@
+---
+title: "Probabilistic Retention Intervention System"
+format:
+  html:
+    toc: false
+---
+
+### Decision Context
+
+Attrition prediction is only useful when it changes retention decisions. In practice, leaders need a calibrated way to decide who to intervene on, when to act, and what actions are justified given limited budget and manager capacity.
+
+This project reframes attrition modeling into a decision-support system for targeted retention interventions.
+
+---
+
+### The Core Decision
+
+Given employee signals and a predicted attrition risk, which employees should receive intervention, what type of intervention is appropriate, and how should thresholds shift as capacity changes?
+
+Constraints considered:
+
+- Limited HR and manager bandwidth  
+- Intervention cost versus expected retention benefit  
+- Risk of unfair or biased targeting  
+- Need for transparent rationale  
+
+---
+
+### Approach
+
+- Built a probability-based attrition risk model  
+- Focused on calibration and ranking rather than a single yes/no label  
+- Designed threshold bands aligned to action levels:
+  - Monitor
+  - Manager check-in
+  - Retention package / role adjustment  
+- Highlighted driver visibility so actions can be justified and audited  
+- Framed evaluation in terms of decision utility, not just accuracy  
+
+---
+
+### System Pattern
+
+1. Ingest HR and performance signals  
+2. Validate and standardize inputs  
+3. Score attrition probability  
+4. Rank employees by risk and expected intervention value  
+5. Apply action thresholds based on capacity and cost  
+6. Log decisions and top drivers for review  
+
+This pattern supports responsible retention decisions at scale.
+
+---
+
+### What This Demonstrates
+
+- Turning prediction into intervention policy  
+- Capacity-aware thresholding  
+- Action band design (monitor vs intervene)  
+- Transparent decision rationale for stakeholder trust  
+
+---
+
+### Technical Stack
+
+Python  
+Pandas  
+Scikit-learn  
+Classification modeling  
+Model evaluation and calibration concepts  
+
+---
+
+### Source Code
+
+[View Code on GitHub](https://github.com/BTExpress1/Employee_Attrition_Prediction)

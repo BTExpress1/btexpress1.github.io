@@ -13,35 +13,35 @@ format:
   </p>
 
   <div class="ads-grid">
+
     <div class="ads-card">
-      <h3>Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
+      <h3>Clinical Access Routing Decision Framework</h3>
+      <p>Transforms healthcare access analysis into a structured routing and prioritization decision system aligned with capacity and equity constraints.</p>
       <span class="ads-tag">Healthcare</span>
-      <a href="/applied-decision-systems/clinical-access-routing-architecture" class="ads-button">View Project</a>
+      <a href="/applied-decision-systems/clinical-access-routing-framework/" class="ads-button">View Project</a>
     </div>
 	
     <div class="ads-card">
-      <h3>Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the operational or regulatory decision this system supports.</p>
+      <h3>Financial Anomaly Triage Framework</h3>
+      <p>Reframes fraud detection into a ranked triage system that prioritizes investigative effort under asymmetric risk and audit requirements.</p>
       <span class="ads-tag">Fintech</span>
-      <a href="#" class="ads-button">View Project</a>
+      <a href="/applied-decision-systems/financial-anomaly-triage-framework/" class="ads-button">View Project</a>
     </div>
 
-
+    <div class="ads-card">
+      <h3>Probabilistic Retention Intervention System</h3>
+      <p>Converts attrition prediction into calibrated intervention bands aligned with HR capacity and retention economics.</p>
+      <span class="ads-tag">Workforce Analytics</span>
+      <a href="/applied-decision-systems/probabilistic-retention-intervention-system/" class="ads-button">View Project</a>
+    </div>
 
     <div class="ads-card">
-      <h3>Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the architecture experiment or hybrid system design.</p>
+      <h3>Credit Risk Threshold Design Framework</h3>
+      <p>Models approval thresholds and portfolio tradeoffs to simulate real-world credit decision logic under capital constraints.</p>
       <span class="ads-tag">Risk Systems</span>
-      <a href="#" class="ads-button">View Project</a>
+      <a href="/applied-decision-systems/credit-risk-threshold-design-framework/" class="ads-button">View Project</a>
     </div>
 
-    <div class="ads-card">
-      <h3>Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the modeling tradeoffs and governance considerations.</p>
-      <span class="ads-tag">Compliance</span>
-      <a href="#" class="ads-button">View Project</a>
-    </div>
   </div>
 </div>
 ```

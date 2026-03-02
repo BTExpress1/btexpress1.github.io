@@ -1,0 +1,78 @@
+---
+title: "Credit Risk Threshold Design Framework"
+format:
+  html:
+    toc: false
+---
+
+### Decision Context
+
+Credit risk models are often evaluated on predictive accuracy alone. In practice, lenders must decide where to set approval thresholds, how to price risk, and how to balance growth against default exposure.
+
+This project reframes loan default modeling into a structured credit decision framework.
+
+---
+
+### The Core Decision
+
+Given applicant financial signals and a predicted probability of default, where should approval thresholds be set to optimize portfolio performance while controlling downside risk?
+
+Constraints considered:
+
+- Capital exposure and loss tolerance  
+- Regulatory expectations  
+- Growth versus risk trade-offs  
+- Fair and consistent approval logic  
+
+---
+
+### Approach
+
+- Built a probability-based default prediction model  
+- Emphasized ranking and score calibration rather than binary output  
+- Modeled threshold bands such as:
+  - Approve
+  - Review
+  - Decline  
+- Considered how thresholds shift under different risk appetite scenarios  
+- Focused on explainability of key risk drivers  
+
+The goal was to simulate real credit decision logic, not just produce a classifier.
+
+---
+
+### System Pattern
+
+1. Ingest applicant financial indicators  
+2. Validate and standardize features  
+3. Generate probability of default score  
+4. Rank applicants by risk  
+5. Apply approval thresholds aligned to risk appetite  
+6. Log decision rationale and top contributing factors  
+
+This pattern mirrors modern credit portfolio design practices.
+
+---
+
+### What This Demonstrates
+
+- Risk-adjusted threshold design  
+- Portfolio-aware decision framing  
+- Trade-off modeling between approval rate and loss exposure  
+- Explainable scoring logic  
+
+---
+
+### Technical Stack
+
+Python  
+Pandas  
+Scikit-learn  
+Classification modeling  
+Probability calibration concepts  
+
+---
+
+### Source Code
+
+[View Code on GitHub](https://github.com/BTExpress1/loan-default-probability)

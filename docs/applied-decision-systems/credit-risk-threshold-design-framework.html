@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Applied Decision Systems – Bini Teklehaimanot - Principal Data scientist</title>
+<title>Credit Risk Threshold Design Framework – Bini Teklehaimanot - Principal Data scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Applied Decision Systems</h1>
+<h1 class="title">Credit Risk Threshold Design Framework</h1>
 </div>
 
 
@@ -136,46 +136,94 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="ads-container">
-  
-  <p class="ads-intro">
-    A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
-  </p>
+<section id="decision-context" class="level3">
+<h3 class="anchored" data-anchor-id="decision-context">Decision Context</h3>
+<p>Credit risk models are often evaluated on predictive accuracy alone. In practice, lenders must decide where to set approval thresholds, how to price risk, and how to balance growth against default exposure.</p>
+<p>This project reframes loan default modeling into a structured credit decision framework.</p>
+<hr>
+</section>
+<section id="the-core-decision" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-decision">The Core Decision</h3>
+<p>Given applicant financial signals and a predicted probability of default, where should approval thresholds be set to optimize portfolio performance while controlling downside risk?</p>
+<p>Constraints considered:</p>
+<ul>
+<li>Capital exposure and loss tolerance<br>
+</li>
+<li>Regulatory expectations<br>
+</li>
+<li>Growth versus risk trade-offs<br>
+</li>
+<li>Fair and consistent approval logic</li>
+</ul>
+<hr>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<ul>
+<li>Built a probability-based default prediction model<br>
+</li>
+<li>Emphasized ranking and score calibration rather than binary output<br>
+</li>
+<li>Modeled threshold bands such as:
+<ul>
+<li>Approve</li>
+<li>Review</li>
+<li>Decline<br>
+</li>
+</ul></li>
+<li>Considered how thresholds shift under different risk appetite scenarios<br>
+</li>
+<li>Focused on explainability of key risk drivers</li>
+</ul>
+<p>The goal was to simulate real credit decision logic, not just produce a classifier.</p>
+<hr>
+</section>
+<section id="system-pattern" class="level3">
+<h3 class="anchored" data-anchor-id="system-pattern">System Pattern</h3>
+<ol type="1">
+<li>Ingest applicant financial indicators<br>
+</li>
+<li>Validate and standardize features<br>
+</li>
+<li>Generate probability of default score<br>
+</li>
+<li>Rank applicants by risk<br>
+</li>
+<li>Apply approval thresholds aligned to risk appetite<br>
+</li>
+<li>Log decision rationale and top contributing factors</li>
+</ol>
+<p>This pattern mirrors modern credit portfolio design practices.</p>
+<hr>
+</section>
+<section id="what-this-demonstrates" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates">What This Demonstrates</h3>
+<ul>
+<li>Risk-adjusted threshold design<br>
+</li>
+<li>Portfolio-aware decision framing<br>
+</li>
+<li>Trade-off modeling between approval rate and loss exposure<br>
+</li>
+<li>Explainable scoring logic</li>
+</ul>
+<hr>
+</section>
+<section id="technical-stack" class="level3">
+<h3 class="anchored" data-anchor-id="technical-stack">Technical Stack</h3>
+<p>Python<br>
+Pandas<br>
+Scikit-learn<br>
+Classification modeling<br>
+Probability calibration concepts</p>
+<hr>
+</section>
+<section id="source-code" class="level3">
+<h3 class="anchored" data-anchor-id="source-code">Source Code</h3>
+<p><a href="https://github.com/BTExpress1/loan-default-probability">View Code on GitHub</a></p>
 
-  <div class="ads-grid">
 
-    <div class="ads-card">
-      <h3 class="anchored">Clinical Access Routing Decision Framework</h3>
-      <p>Transforms healthcare access analysis into a structured routing and prioritization decision system aligned with capacity and equity constraints.</p>
-      <span class="ads-tag">Healthcare</span>
-      <a href="../applied-decision-systems/clinical-access-routing-framework/" class="ads-button">View Project</a>
-    </div>
-    
-    <div class="ads-card">
-      <h3 class="anchored">Financial Anomaly Triage Framework</h3>
-      <p>Reframes fraud detection into a ranked triage system that prioritizes investigative effort under asymmetric risk and audit requirements.</p>
-      <span class="ads-tag">Fintech</span>
-      <a href="../applied-decision-systems/financial-anomaly-triage-framework/" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Probabilistic Retention Intervention System</h3>
-      <p>Converts attrition prediction into calibrated intervention bands aligned with HR capacity and retention economics.</p>
-      <span class="ads-tag">Workforce Analytics</span>
-      <a href="../applied-decision-systems/probabilistic-retention-intervention-system/" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Credit Risk Threshold Design Framework</h3>
-      <p>Models approval thresholds and portfolio tradeoffs to simulate real-world credit decision logic under capital constraints.</p>
-      <span class="ads-tag">Risk Systems</span>
-      <a href="../applied-decision-systems/credit-risk-threshold-design-framework/" class="ads-button">View Project</a>
-    </div>
-
-  </div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
