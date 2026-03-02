@@ -166,6 +166,16 @@ main.content,
   display: block;
 }
 
+/* Global Heading Colors */
+h1, h2, .title {
+  color: #0055B8;
+  font-weight: 600;
+}
+
+h3, h4 {
+  color: #0076a8; /* A slightly lighter shade for sub-hierarchy */
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .three-columns {
