@@ -2,7 +2,7 @@
 
 :root {
   --nav-height: 78px;
-  --nav-content-gap: 48px;
+  --nav-content-gap: 100px;
 }
 
 body, #quarto-content, .page-layout-custom, main {
