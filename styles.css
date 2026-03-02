@@ -4,18 +4,28 @@ body, #quarto-content, .page-layout-custom, main {
   padding: 0 !important;
   width: 100% !important;
 }
+:root {
+  --nav-height: 78px; /* adjust once */
+}
 
 /* --- Page Top Spacing Under Navbar --- */
 main.content, 
 #quarto-content {
-  padding-top: 3rem !important; 
+  padding-top: calc(var(--nav-height) + 24px) !important;
 }
 
 /* --- Navigation Bar (Dark Header) --- */
 .navbar {
-  background-color: #1a1a1a !important; 
+  background-color: #1a1a1a !important;
+  backdrop-filter: blur(6px);
   padding: 0.4rem 5% !important; 
   border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Logo Size Fix */
