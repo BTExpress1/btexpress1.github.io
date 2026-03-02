@@ -227,7 +227,39 @@ h3, h4 {
   color: #0057B8;
 }
 
+.credibility-strip {
+  width: 100%;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  background: rgba(0,0,0,0.02);
+}
 
+.credibility-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.credibility-content span {
+  letter-spacing: 0.3px;
+}
+
+.case-diagram {
+  width: 100% !important;
+  height: auto;
+  margin: 0.75rem 0 1.25rem 0;
+  border-radius: 12px;
+  display: block;
+  max-width: 900px;
+}
 
 /* Mobile Responsive */
 @media (max-width: 768px) {

@@ -41,6 +41,9 @@ Reframed fraud prediction as intervention optimization.
 - Implemented hybrid rules plus ML architecture  
 - Formalized threshold governance process  
 
+![](/assets/images/fraud-detection-architecture.png){.case-diagram fig-alt="Audit-ready fraud intervention decision system architecture showing data ingestion, validation and data quality guardrail, feature engineering, hybrid rules plus ML scoring engine, cost-sensitive threshold manager with capacity constraints, approve or manual review branches with human-in-the-loop escalation, labeled feedback loop for confirmed fraud and false positives, and governance layer including immutable decision logging, drift monitoring, precision tracking, and threshold version control."}
+
+
 ### Reliability Architecture  
 - Drift monitoring on fraud rate and precision shifts  
 - Guardrail logic for edge-case transactions  
