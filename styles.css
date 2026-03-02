@@ -161,8 +161,8 @@ main.content,
 .banner {
   width: 100% !important;
   height: auto;
-  margin: 0.5rem 0 2rem 0; /* Less space on top, more on bottom */
-  border-radius: 8px;
+  margin: 0.75rem 0 1.5rem 0;
+  border-radius: 12px;
   display: block;
 }
 
@@ -181,17 +181,24 @@ h3, h4 {
 .case-studies h2 {
   margin-top: 3rem;
   padding-top: 2.5rem;
+}
+
+.case-studies h2 + p {
+  margin-top: 0.5rem;
+}
+
+.case-studies h2:not(:first-of-type) {
   border-top: 1px solid rgba(0,0,0,0.10);
 }
 
-.case-studies h3 {
-  margin-top: 1.25rem;
+.case-studies p {
+  line-height: 1.65;
+  max-width: 72ch;
 }
 
-.case-studies p {
-  line-height: 1.6;
-  max-width: 72ch;
-  margin: 0.6rem 0;
+.case-studies h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.35rem;
 }
 
 .case-studies ul {
@@ -208,22 +215,19 @@ h3, h4 {
   max-width: 72ch;
   margin: 1rem 0 1.25rem 0;
   padding: 0.9rem 1rem;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-left: 4px solid rgba(0,0,0,0.35);
-  border-radius: 10px;
-  background: rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.10);
+  border-left: 4px solid #0057B8;
+  border-radius: 12px;
+  background: rgba(0,87,184,0.04);
 }
 
 .metrics-box strong {
-  display: inline-block;
-  margin-bottom: 0.35rem;
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #0057B8;
 }
 
-/* Banner spacing */
-.banner {
-  margin: 0.75rem 0 1.25rem 0;
-  border-radius: 12px;
-}
+
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
