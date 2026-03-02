@@ -1,0 +1,391 @@
+/* --- Global Reset & Alignment --- */
+
+:root {
+  --nav-height: 78px;
+  --nav-content-gap: 100px;
+}
+
+body, #quarto-content, .page-layout-custom, main {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+
+/* --- Page Top Spacing Under Navbar --- */
+main.content,
+#quarto-content {
+  padding-top: var(--nav-content-gap);
+}
+
+/* --- Navigation Bar (Dark Header) --- */
+.navbar {
+  background-color: #1a1a1a !important;
+  backdrop-filter: blur(6px);
+  padding: 0.4rem 5% !important; 
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo Size Optimization */
+.navbar-brand img {
+  /* Set to ~90% of navbar height to leave slight breathing room */
+  max-height: 70px !important; 
+  width: auto;
+  /* Remove default vertical alignment shifts */
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove Quarto's default padding on the brand link */
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Nav Links - Yellow for visibility */
+.navbar-nav .nav-link {
+  color: #F2C300 !important; 
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* --- Yellow Magnifier Fix --- */
+.quarto-search-toggle, 
+.quarto-navigation-tool,
+.quarto-search-toggle i, 
+.quarto-search-toggle svg {
+  color: #F2C300 !important;
+  fill: #F2C300 !important;
+}
+
+.quarto-search-toggle:hover i,
+.quarto-search-toggle:hover svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* --- Hero Section --- */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center; 
+  # min-height: 20vh;       
+  text-align: center;
+  width: 100vw;           
+  margin: 2.5rem auto 0 auto;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #0057B8; 
+  margin: 0;
+  line-height: 0.9;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #444;
+  margin-top: 8px; 
+  margin-bottom: 2.5rem;
+}
+
+/* --- Call to Action (CTA) Button --- */
+.hero-cta {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: #0057B8; 
+  color: white !important;
+  text-decoration: none;
+  border-radius: 50px; 
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-cta:hover {
+  background-color: #F2C300; 
+  color: #000 !important; 
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+/* --- Three Column Section --- */
+.three-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.three-columns .column {
+  flex: 1;
+  min-width: 0;
+  border-top: 1px solid #eee; /* Adds a subtle horizontal rule above each section */
+  padding-top: 1.5rem;
+}
+
+.three-columns h3 {
+  margin-top: 0;
+  color: #0057B8;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.column-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.column-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #0057B8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.column-link:hover {
+  color: #F2C300;
+  text-decoration: underline;
+}
+
+/* Bullets styling inside columns */
+.three-columns ul {
+  padding-left: 1.1rem;
+  color: #333;
+}
+
+.three-columns li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.banner {
+  width: 100% !important;
+  height: auto;
+  margin: 0.75rem 0 1.5rem 0;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Global Heading Colors */
+h1, h2, .title {
+  color: #0057B8;
+  font-weight: 600;
+}
+
+h3, h4 {
+  color: #0076a8; /* A slightly lighter shade for sub-hierarchy */
+}
+
+
+/* Case studies readability */
+.case-studies h2 {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+.case-studies h2 + p {
+  margin-top: 0.5rem;
+}
+
+.case-studies h2:not(:first-of-type) {
+  border-top: 1px solid rgba(0,0,0,0.10);
+}
+
+.case-studies p {
+  line-height: 1.65;
+  max-width: 72ch;
+}
+
+.case-studies h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.case-studies ul {
+  max-width: 72ch;
+  margin: 0.6rem 0 1rem 1.2rem;
+}
+
+.case-studies li {
+  margin: 0.35rem 0;
+}
+
+/* Metrics callout */
+.metrics-box {
+  max-width: 72ch;
+  margin: 1rem 0 1.25rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(0,0,0,0.10);
+  border-left: 4px solid #0057B8;
+  border-radius: 12px;
+  background: rgba(0,87,184,0.04);
+}
+
+.metrics-box strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #0057B8;
+}
+
+.credibility-strip {
+  width: 100%;
+  padding: 1.2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  background: rgba(0,0,0,0.02);
+}
+
+.credibility-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.credibility-content span {
+  letter-spacing: 0.3px;
+}
+
+.case-diagram {
+  width: 100% !important;
+  height: auto;
+  margin: 0.75rem 0 1.25rem 0;
+  border-radius: 12px;
+  display: block;
+  max-width: 900px;
+}
+
+/* Applied Decision Systems */
+
+.quarto-title-block {
+  text-align: center;
+}
+
+.ads-container {
+  max-width: 1100px;
+  margin: 2.5rem auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.ads-intro {
+  max-width: 72ch;
+  margin: 0 auto 2.5rem auto;
+  text-align: center;
+  line-height: 1.6;
+  color: #444;
+  font-size: 1.05rem;
+}
+
+.ads-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.ads-card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 1.5rem;
+  background: #ffffff;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ads-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.ads-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  color: #0057B8;
+}
+
+.ads-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.ads-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0057B8;
+  margin-bottom: 1rem;
+}
+
+.ads-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #0057B8;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.ads-button:hover {
+  background-color: #F2C300;
+  color: #000 !important;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .ads-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ads-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .three-columns {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}

@@ -2,13 +2,12 @@
 title: "Applied Decision Systems"
 format:
   html:
-    toc: false
-	title-block-banner: false
+    toc: false	
 ---
 
 ```{=html}
 <div class="ads-container">
-  <h1 class="hero-title" style="margin-bottom: 0.5rem;">Applied Decision Systems</h1>
+  
   <p class="ads-intro">
     A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
   </p>

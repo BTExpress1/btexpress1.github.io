@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "philosophy/index.html",
+    "href": "philosophy/index.html",
+    "title": "Philosophy",
+    "section": "",
+    "text": "Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences."
+  },
+  {
+    "objectID": "philosophy/index.html#model-the-decision-not-the-dataset",
+    "href": "philosophy/index.html#model-the-decision-not-the-dataset",
+    "title": "Philosophy",
+    "section": "Model the Decision, Not the Dataset",
+    "text": "Model the Decision, Not the Dataset\nEffective systems begin with a clear understanding of the decision being made, the constraints surrounding it, and the risks of getting it wrong. Data serves as an input, not the anchor. A model produces a prediction; a system produces a decision. My focus is on the latter.\nKey considerations include:\n\nThe structure of the decision: Mapping how a choice is actually executed in the field.\nThe incentives and failure modes: Identifying what happens when the system is wrong and who bears the cost.\nThe operational environment: Designing for the specific latency and throughput requirements of the business.\n\nThis orientation ensures solutions align with real-world decision dynamics rather than purely statistical elegance."
+  },
+  {
+    "objectID": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
+    "href": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
+    "title": "Philosophy",
+    "section": "Reduce Ambiguity Before Increasing Complexity",
+    "text": "Reduce Ambiguity Before Increasing Complexity\nAmbiguity is the enemy of reliability. Before expanding feature sets or exploring advanced architectures, the foundation must be clarified:\n\nDefining “Good”: Establishing gold-standard labels that reflect business reality, not just available data.\nDefining Failure: Explicitly documenting what constitutes a system-level error versus a tolerable model variance.\nIdentifying Constraints: Surfacing regulatory or technical limits before they become architectural bottlenecks.\n\nClear definitions early on prevent downstream reliability issues and create a stable base for technical work."
+  },
+  {
+    "objectID": "philosophy/index.html#design-for-reliability-not-cleverness",
+    "href": "philosophy/index.html#design-for-reliability-not-cleverness",
+    "title": "Philosophy",
+    "section": "Design for Reliability, Not Cleverness",
+    "text": "Design for Reliability, Not Cleverness\nHigh-stakes systems must be predictable, auditable, and robust under pressure. Reliability takes precedence over novelty.\nCore practices include:\n\nInterpretability Over “Black Boxes”: Prioritizing models that stakeholders can trust and auditors can verify.\nDeterministic Guardrails: Wrapping probabilistic models in deterministic rules to ensure safety at the “edges”.\nFail-Safe Design: Ensuring systems are designed to fail safely toward human expertise, not away from it.\n\nThe objective is dependable performance, not algorithmic experimentation."
+  },
+  {
+    "objectID": "philosophy/index.html#treat-constraints-as-features",
+    "href": "philosophy/index.html#treat-constraints-as-features",
+    "title": "Philosophy",
+    "section": "Treat Constraints as Features",
+    "text": "Treat Constraints as Features\nRegulatory requirements, workflow bottlenecks, and human review patterns are integral components of system design. Incorporating these constraints early produces solutions that integrate cleanly into real-world environments and withstand scrutiny."
+  },
+  {
+    "objectID": "philosophy/index.html#make-uncertainty-a-first-class-signal",
+    "href": "philosophy/index.html#make-uncertainty-a-first-class-signal",
+    "title": "Philosophy",
+    "section": "Make Uncertainty a First-Class Signal",
+    "text": "Make Uncertainty a First-Class Signal\nUncertainty is quantified explicitly and used to guide safe fallback paths, escalation logic, and human-in-the-loop review. Systems built with uncertainty in mind behave predictably even when data conditions shift."
+  },
+  {
+    "objectID": "philosophy/index.html#technical-foundations-behind-the-philosophy",
+    "href": "philosophy/index.html#technical-foundations-behind-the-philosophy",
+    "title": "Philosophy",
+    "section": "Technical Foundations Behind the Philosophy",
+    "text": "Technical Foundations Behind the Philosophy\nThese principles translate into concrete engineering practices that support reliability in production:\n\nEconomic-Metric Alignment: Developing evaluation metrics that map directly to P&L or clinical safety outcomes.\nScenario-Based Testing: Stress-testing systems against edge cases and adversarial patterns before deployment.\nHybrid Architectures: Blending rules-based logic with machine learning to balance interpretability and precision.\nAudit-First Lifecycle: Implementing versioning and “decision-tracing” to ensure every action is explainable years later.\nData Quality as a Lever: Treating data pipelines as a core reliability component, not just a plumbing task."
+  },
+  {
+    "objectID": "philosophy/index.html#what-this-philosophy-enables",
+    "href": "philosophy/index.html#what-this-philosophy-enables",
+    "title": "Philosophy",
+    "section": "What This Philosophy Enables",
+    "text": "What This Philosophy Enables\nThese principles consistently produce systems that:\n\nImprove decision quality without increasing operational burden.\nHold up under regulatory and audit scrutiny.\nScale across teams, workflows, and product surfaces.\nBuild trust with stakeholders who depend on the outcomes."
+  },
+  {
+    "objectID": "expertise/index.html",
+    "href": "expertise/index.html",
+    "title": "Expertise",
+    "section": "",
+    "text": "Expertise shaped by building decision systems in regulated, high‑stakes environments. The focus is on reliability, clarity, and operational fit—ensuring that models, rules, and workflows behave predictably under real-world constraints."
+  },
+  {
+    "objectID": "expertise/index.html#decision-system-architecture",
+    "href": "expertise/index.html#decision-system-architecture",
+    "title": "Expertise",
+    "section": "Decision System Architecture",
+    "text": "Decision System Architecture\nDesigning systems that encode decisions, not just predictions. This includes structuring how data, rules, and models interact to support consistent, auditable outcomes.\nAreas of depth:\n\nTranslating business decisions into formal decision logic\n\nDesigning hybrid architectures that combine rules, heuristics, and ML\n\nStructuring systems for transparency, fallback behavior, and human review\n\nEnsuring auditability and traceability across the decision lifecycle\n\nThese patterns support systems that remain stable as incentives, data, and workflows evolve."
+  },
+  {
+    "objectID": "expertise/index.html#modeling-and-statistical-methods",
+    "href": "expertise/index.html#modeling-and-statistical-methods",
+    "title": "Expertise",
+    "section": "Modeling and Statistical Methods",
+    "text": "Modeling and Statistical Methods\nApplying statistical and machine learning techniques with an emphasis on interpretability, robustness, and operational alignment.\nCapabilities include:\n\nSupervised learning for classification, ranking, and risk scoring\n\nProbabilistic modeling and uncertainty quantification\n\nFeature engineering grounded in domain constraints\n\nModel evaluation using decision-aligned metrics rather than generic benchmarks\n\nThe emphasis is on models that perform reliably in production, not just in experimentation."
+  },
+  {
+    "objectID": "expertise/index.html#data-quality-and-signal-integrity",
+    "href": "expertise/index.html#data-quality-and-signal-integrity",
+    "title": "Expertise",
+    "section": "Data Quality and Signal Integrity",
+    "text": "Data Quality and Signal Integrity\nHigh-stakes systems depend on stable, trustworthy data. Expertise includes designing processes that ensure data remains usable, consistent, and meaningful over time.\nFocus areas:\n\nUpstream validation and schema stability\n\nMonitoring for drift, staleness, and signal degradation\n\nDesigning guardrails for missing, delayed, or corrupted data\n\nBuilding resilience into pipelines that feed decision systems\n\nThese practices reduce operational surprises and support long-term reliability."
+  },
+  {
+    "objectID": "expertise/index.html#workflow-and-product-integration",
+    "href": "expertise/index.html#workflow-and-product-integration",
+    "title": "Expertise",
+    "section": "Workflow and Product Integration",
+    "text": "Workflow and Product Integration\nDecision systems must integrate cleanly into the environments where people work. Expertise includes aligning technical solutions with real operational constraints.\nExamples of integration work:\n\nDesigning thresholds, review queues, and escalation paths\n\nMapping model outputs to user actions and workflow steps\n\nReducing friction for clinicians, investigators, or compliance teams\n\nEnsuring systems enhance—not disrupt—existing processes\n\nThis alignment increases adoption and improves decision quality."
+  },
+  {
+    "objectID": "expertise/index.html#monitoring-governance-and-lifecycle-management",
+    "href": "expertise/index.html#monitoring-governance-and-lifecycle-management",
+    "title": "Expertise",
+    "section": "Monitoring, Governance, and Lifecycle Management",
+    "text": "Monitoring, Governance, and Lifecycle Management\nLong-term durability requires systems that can be monitored, audited, and evolved without losing trust.\nCore capabilities:\n\nDesigning monitoring frameworks for drift, performance, and data quality\n\nImplementing versioning, rollback, and change‑management processes\n\nCreating audit trails that satisfy regulatory and internal governance needs\n\nStructuring lifecycle plans for models, rules, and decision logic\n\nThese practices ensure systems remain reliable years after deployment."
+  },
+  {
+    "objectID": "expertise/index.html#crossfunctional-alignment-and-communication",
+    "href": "expertise/index.html#crossfunctional-alignment-and-communication",
+    "title": "Expertise",
+    "section": "Cross‑Functional Alignment and Communication",
+    "text": "Cross‑Functional Alignment and Communication\nEffective decision systems require alignment across technical, operational, and regulatory stakeholders. Expertise includes translating ambiguity into structured decisions and driving clarity across teams.\nStrengths include:\n\nFraming tradeoffs and constraints in accessible terms\n\nAligning engineering, product, and domain experts around shared goals\n\nCommunicating risk, uncertainty, and system behavior clearly\n\nSupporting decision-making processes with structured analysis\n\nThis capability accelerates adoption and reduces organizational friction."
+  },
+  {
+    "objectID": "expertise/index.html#domains-of-application",
+    "href": "expertise/index.html#domains-of-application",
+    "title": "Expertise",
+    "section": "Domains of Application",
+    "text": "Domains of Application\nThese capabilities have been applied across multiple high‑stakes domains:\n\nFraud detection — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems\n\nClinical workflow optimization — triage logic, prioritization systems, operational decision support\n\nCompliance automation — rule encoding, exception handling, audit‑ready decision pipelines\n\nEach domain reinforces the same core principles: clarity, reliability, and operational fit."
+  },
+  {
+    "objectID": "applied-decision-systems/index.html",
+    "href": "applied-decision-systems/index.html",
+    "title": "Applied Decision Systems",
+    "section": "",
+    "text": "A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.\n\n\n&lt;div class=\"ads-card\"&gt;\n  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n  &lt;p&gt;Short decision-focused summary describing the intervention logic or threshold strategy explored.&lt;/p&gt;\n  &lt;span class=\"ads-tag\"&gt;Healthcare&lt;/span&gt;\n  &lt;a href=\"/applied-decision-systems/clinicalaccess-routing-architecture\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"ads-card\"&gt;\n  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n  &lt;p&gt;Short decision-focused summary describing the operational or regulatory decision this system supports.&lt;/p&gt;\n  &lt;span class=\"ads-tag\"&gt;Fintech&lt;/span&gt;\n  &lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"ads-card\"&gt;\n  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n  &lt;p&gt;Short decision-focused summary describing the architecture experiment or hybrid system design.&lt;/p&gt;\n  &lt;span class=\"ads-tag\"&gt;Risk Systems&lt;/span&gt;\n  &lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"ads-card\"&gt;\n  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n  &lt;p&gt;Short decision-focused summary describing the modeling tradeoffs and governance considerations.&lt;/p&gt;\n  &lt;span class=\"ads-tag\"&gt;Compliance&lt;/span&gt;\n  &lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a Principal Data Scientist specializing in high‑stakes decision systems across regulated and operationally complex domains. My work focuses on building models and workflows that organizations can trust, especially when the cost of a wrong decision is high.\nI approach data science by modeling the decision, not just the dataset. That means reducing ambiguity before increasing complexity, aligning statistical rigor with operational constraints, and designing systems that are reliable, explainable, and durable in real‑world environments.\nMy experience spans fraud detection, clinical workflow optimization, compliance automation, and risk‑aware modeling frameworks. Across these areas, I focus on measurable impact, auditability, and the ability for systems to operate under real constraints rather than idealized assumptions.\nMy background blends data science, risk modeling, and technical program management. That combination helps me align stakeholders, clarify requirements, and deliver systems that work beyond the prototype stage."
+  },
+  {
+    "objectID": "applied-decision-systems/clinical-access-routing-architecture.html",
+    "href": "applied-decision-systems/clinical-access-routing-architecture.html",
+    "title": "Clinical Access Routing Architecture",
+    "section": "",
+    "text": "Decision Context\nHealthcare access decisions often operate under limited capacity, uneven resource distribution, and ambiguous eligibility rules. The challenge is not simply analyzing data, but structuring routing logic that allocates care access in a consistent and defensible manner.\nThis project explores how access data can inform structured clinical routing decisions under operational constraints.\n\n\n\nThe Decision Problem\nGiven patient attributes and contextual signals, how should access be prioritized?\nKey considerations:\n\nLimited provider capacity\n\nFairness and equitable allocation\n\nRisk of delayed intervention\n\nTransparency of routing criteria\n\nThe objective shifts from prediction to structured decision support.\n\n\n\nApproach\nThis project began as exploratory analysis of healthcare access patterns, then evolved into a decision-framing exercise:\n\nIdentified access bottlenecks and priority indicators\n\nModeled probability signals for delayed access risk\n\nEvaluated threshold strategies for intervention routing\n\nStructured deterministic guardrails for safety constraints\n\nExplored how hybrid rule + probability systems improve transparency\n\nThe focus was not model accuracy alone, but decision reliability.\n\n\n\nArchitectural Insight\nA clinical routing system must:\n\nSeparate scoring logic from intervention policy\n\nMake thresholds adjustable based on capacity\n\nPreserve human oversight for ambiguous cases\n\nLog decisions for auditability\n\nThis transforms exploratory modeling into decision architecture.\n\n\n\nWhat This Enables\n\nStructured triage decision support\n\nOperational routing transparency\n\nCapacity-aware prioritization\n\nSafer deployment of predictive signals\n\n\n\n\nTechnical Stack\nPython\nPandas\nScikit-learn\nExploratory data analysis\nProbability modeling\n\n\n\nSource Code\nView Code on GitHub"
+  },
+  {
+    "objectID": "case-studies/index.html",
+    "href": "case-studies/index.html",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Work delivered in environments where decisions carry real consequences. These case studies highlight systems built to perform under operational pressure, regulatory expectations, and measurable performance standards. Each project reflects a commitment to clarity, rigor, and durable impact.\n\n\nFintech | High-stakes classification | Risk & compliance\n\n\nImpact Snapshot • 20–35% reduction in manual review volume • Stabilized fraud loss volatility during peak load • Audit-ready intervention traceability implemented\n\n\n\nFraud exposure was rising while manual review queues expanded. Existing rules-based controls produced high false positives and lacked defensible audit logic under regulatory scrutiny.\n\n\n\nWhich transactions require intervention and where thresholds should be set to minimize loss without exceeding operational capacity or compliance guardrails.\n\n\n\n\nEscalating fraud losses\n\nReview team saturation\n\nRegulatory exposure from opaque decisions\n\nUncontrolled threshold adjustments\n\n\n\n\nReframed fraud prediction as intervention optimization.\n\nModeled asymmetric cost of false positives and false negatives\n\nEmbedded review throughput constraints into threshold design\n\nAligned acceptable error modes with compliance leadership\n\nImplemented hybrid rules plus ML architecture\n\nFormalized threshold governance process\n\n\n\n\n\n\nDrift monitoring on fraud rate and precision shifts\n\nGuardrail logic for edge-case transactions\n\nHuman escalation for ambiguous classifications\n\nVersioned, audit-ready decision logs\n\n\n\n\nPrincipal system designer responsible for architecture, threshold strategy, cross-functional alignment, and production governance model.\n\n\n\nPython, scikit-learn, gradient boosting models, SQL, monitoring dashboards, decision logging framework\n\n\n\nDesigning cost-sensitive, auditable decision systems under regulatory pressure.\n\n\n\n\n\nHealthtech | Workflow modeling | Operational efficiency\n\n\nImpact Snapshot • Increased routing consistency across care units • Reduced manual triage burden • Improved throughput without elevating safety risk\n\n\n\nClinicians operated under fragmented workflows, high cognitive load, and inconsistent triage routing. Documentation and review overhead reduced available patient-facing time.\n\n\n\nWhich tasks should be automated, escalated, or preserved for human review to reduce burden while maintaining safety.\n\n\n\n\nClinician burnout\n\nCare delays from routing bottlenecks\n\nVariability in triage outcomes\n\nSafety exposure from poorly bounded automation\n\n\n\n\nTreated workflow friction as a decision system architecture problem.\n\nMapped end-to-end care pathways\n\nDefined safe automation boundaries with clinical leaders\n\nCombined lightweight predictive scoring with deterministic routing\n\nEmbedded conservative thresholds aligned to safety standards\n\nStructured escalation policies for uncertainty\n\n\n\n\n\nHuman-in-the-loop safeguards\n\nContinuous routing consistency monitoring\n\nFail-safe escalation logic\n\nTransparent decision logic to preserve trust\n\n\n\n\nLed system architecture design, stakeholder alignment with clinical leadership, and safe automation boundary definition.\n\n\n\nPython, workflow modeling, rules engine framework, lightweight predictive models, operational dashboards\n\n\n\nDesigning human-aligned systems that reduce cognitive load without compromising safety.\n\n\n\n\n\nFintech | Hybrid architecture | Auditability-first design\n\n\nImpact Snapshot • Shortened compliance review cycles • Increased classification consistency • Implemented immutable audit trail framework\n\n\n\nManual compliance review processes were slow, inconsistent, and difficult to audit. Regulatory expectations demanded traceable reasoning and defensible intervention logic.\n\n\n\nWhich cases require compliance intervention and how regulatory language should translate into operational logic.\n\n\n\n\nRegulatory penalties\n\nLegal exposure from undocumented decisions\n\nInconsistent enforcement across teams\n\nScaling limitations in manual review\n\n\n\n\nOperationalized regulatory interpretation into scalable decision architecture.\n\nTranslated statutory language into deterministic rules\n\nBuilt statistical scoring for borderline classifications\n\nDesigned hybrid rule plus ML framework\n\nFormalized governance process for threshold updates\n\n\n\n\n\nImmutable decision logs\n\nConservative thresholds for high-risk categories\n\nPattern monitoring for anomaly detection\n\nEscalation triggers aligned with oversight teams\n\n\n\n\nArchitected hybrid compliance decision system and established governance and auditability framework.\n\n\n\nPython, rules engine framework, gradient boosting models, SQL, compliance logging system\n\n\n\nOperationalizing regulatory requirements into durable, defensible decision systems."
+  },
+  {
+    "objectID": "case-studies/index.html#fraud-detection",
+    "href": "case-studies/index.html#fraud-detection",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Fintech | High-stakes classification | Risk & compliance\n\n\nImpact Snapshot • 20–35% reduction in manual review volume • Stabilized fraud loss volatility during peak load • Audit-ready intervention traceability implemented\n\n\n\nFraud exposure was rising while manual review queues expanded. Existing rules-based controls produced high false positives and lacked defensible audit logic under regulatory scrutiny.\n\n\n\nWhich transactions require intervention and where thresholds should be set to minimize loss without exceeding operational capacity or compliance guardrails.\n\n\n\n\nEscalating fraud losses\n\nReview team saturation\n\nRegulatory exposure from opaque decisions\n\nUncontrolled threshold adjustments\n\n\n\n\nReframed fraud prediction as intervention optimization.\n\nModeled asymmetric cost of false positives and false negatives\n\nEmbedded review throughput constraints into threshold design\n\nAligned acceptable error modes with compliance leadership\n\nImplemented hybrid rules plus ML architecture\n\nFormalized threshold governance process\n\n\n\n\n\n\nDrift monitoring on fraud rate and precision shifts\n\nGuardrail logic for edge-case transactions\n\nHuman escalation for ambiguous classifications\n\nVersioned, audit-ready decision logs\n\n\n\n\nPrincipal system designer responsible for architecture, threshold strategy, cross-functional alignment, and production governance model.\n\n\n\nPython, scikit-learn, gradient boosting models, SQL, monitoring dashboards, decision logging framework\n\n\n\nDesigning cost-sensitive, auditable decision systems under regulatory pressure."
+  },
+  {
+    "objectID": "case-studies/index.html#clinical-workflow-optimization",
+    "href": "case-studies/index.html#clinical-workflow-optimization",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Healthtech | Workflow modeling | Operational efficiency\n\n\nImpact Snapshot • Increased routing consistency across care units • Reduced manual triage burden • Improved throughput without elevating safety risk\n\n\n\nClinicians operated under fragmented workflows, high cognitive load, and inconsistent triage routing. Documentation and review overhead reduced available patient-facing time.\n\n\n\nWhich tasks should be automated, escalated, or preserved for human review to reduce burden while maintaining safety.\n\n\n\n\nClinician burnout\n\nCare delays from routing bottlenecks\n\nVariability in triage outcomes\n\nSafety exposure from poorly bounded automation\n\n\n\n\nTreated workflow friction as a decision system architecture problem.\n\nMapped end-to-end care pathways\n\nDefined safe automation boundaries with clinical leaders\n\nCombined lightweight predictive scoring with deterministic routing\n\nEmbedded conservative thresholds aligned to safety standards\n\nStructured escalation policies for uncertainty\n\n\n\n\n\nHuman-in-the-loop safeguards\n\nContinuous routing consistency monitoring\n\nFail-safe escalation logic\n\nTransparent decision logic to preserve trust\n\n\n\n\nLed system architecture design, stakeholder alignment with clinical leadership, and safe automation boundary definition.\n\n\n\nPython, workflow modeling, rules engine framework, lightweight predictive models, operational dashboards\n\n\n\nDesigning human-aligned systems that reduce cognitive load without compromising safety."
+  },
+  {
+    "objectID": "case-studies/index.html#compliance-automation",
+    "href": "case-studies/index.html#compliance-automation",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Fintech | Hybrid architecture | Auditability-first design\n\n\nImpact Snapshot • Shortened compliance review cycles • Increased classification consistency • Implemented immutable audit trail framework\n\n\n\nManual compliance review processes were slow, inconsistent, and difficult to audit. Regulatory expectations demanded traceable reasoning and defensible intervention logic.\n\n\n\nWhich cases require compliance intervention and how regulatory language should translate into operational logic.\n\n\n\n\nRegulatory penalties\n\nLegal exposure from undocumented decisions\n\nInconsistent enforcement across teams\n\nScaling limitations in manual review\n\n\n\n\nOperationalized regulatory interpretation into scalable decision architecture.\n\nTranslated statutory language into deterministic rules\n\nBuilt statistical scoring for borderline classifications\n\nDesigned hybrid rule plus ML framework\n\nFormalized governance process for threshold updates\n\n\n\n\n\nImmutable decision logs\n\nConservative thresholds for high-risk categories\n\nPattern monitoring for anomaly detection\n\nEscalation triggers aligned with oversight teams\n\n\n\n\nArchitected hybrid compliance decision system and established governance and auditability framework.\n\n\n\nPython, rules engine framework, gradient boosting models, SQL, compliance logging system\n\n\n\nOperationalizing regulatory requirements into durable, defensible decision systems."
+  }
+]
