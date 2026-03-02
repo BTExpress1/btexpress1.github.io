@@ -32,10 +32,23 @@ main.content,
   z-index: 1000;
 }
 
-/* Logo Size Fix */
+/* Logo Size Optimization */
 .navbar-brand img {
-  max-height: 55px !important; 
+  /* Set to ~90% of navbar height to leave slight breathing room */
+  max-height: 70px !important; 
   width: auto;
+  /* Remove default vertical alignment shifts */
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove Quarto's default padding on the brand link */
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 /* Nav Links - Yellow for visibility */
