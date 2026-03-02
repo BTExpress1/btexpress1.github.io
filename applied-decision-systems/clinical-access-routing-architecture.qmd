@@ -7,6 +7,14 @@ format:
 
 ![](/assets/images/clinical.jpg){.case-diagram alt="Diagram of a clinical access routing decision system showing triage, monitor, and intervene pathways connecting hospitals, providers, and patients."}
 
+<div class="metrics-box">
+  <strong>Executive Impact</strong>
+  <ul>
+    <li>Improves resource allocation across triage, monitoring, and intervention tiers.</li>
+    <li>Reduces escalation bottlenecks by structuring clinical routing logic.</li>
+    <li>Creates auditable decision pathways for regulated healthcare environments.</li>
+  </ul>
+</div>
 
 ### Decision Context
 

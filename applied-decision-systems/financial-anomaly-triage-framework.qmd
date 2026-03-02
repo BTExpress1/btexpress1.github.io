@@ -6,6 +6,15 @@ format:
 ---
 ![](/assets/images/financial.jpg){.case-diagram alt="Financial anomaly triage dashboard illustrating low, moderate, and high risk classification with monitoring, alerts, and review workflow."}
 
+<div class="metrics-box">
+  <strong>Executive Impact</strong>
+  <ul>
+    <li>Prioritizes investigative resources based on structured risk tiers.</li>
+    <li>Reduces false positives while maintaining high-risk signal detection.</li>
+    <li>Supports compliance documentation with transparent anomaly scoring logic.</li>
+  </ul>
+</div>
+
 ### Decision Context
 
 Financial reporting and transaction ecosystems generate a high volume of signals, but investigative capacity is limited. The practical problem is not “detect everything,” but to prioritize which entities or patterns deserve attention first, with defensible thresholds and traceable rationale.
