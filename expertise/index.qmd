@@ -6,8 +6,6 @@ format:
     toc-depth: 2
 ---
 
-# Expertise
-
 ![](/assets/images/expertise-systems-architecture-banner.png){.banner fig-alt="An abstract technical schematic representing interconnected decision systems, architectural layers, and structured professional expertise."}
 
 Expertise shaped by building decision systems in regulated, high‑stakes environments. The focus is on reliability, clarity, and operational fit—ensuring that models, rules, and workflows behave predictably under real-world constraints.

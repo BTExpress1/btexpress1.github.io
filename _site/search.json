@@ -60,56 +60,56 @@
     "href": "expertise/index.html",
     "title": "Expertise",
     "section": "",
-    "text": "Expertise shaped by building decision systems in regulated, high‑stakes environments. The focus is on reliability, clarity, and operational fit—ensuring that models, rules, and workflows behave predictably under real-world constraints.\n\n\n\nDesigning systems that encode decisions, not just predictions. This includes structuring how data, rules, and models interact to support consistent, auditable outcomes.\nAreas of depth:\n\nTranslating business decisions into formal decision logic\n\nDesigning hybrid architectures that combine rules, heuristics, and ML\n\nStructuring systems for transparency, fallback behavior, and human review\n\nEnsuring auditability and traceability across the decision lifecycle\n\nThese patterns support systems that remain stable as incentives, data, and workflows evolve.\n\n\n\n\nApplying statistical and machine learning techniques with an emphasis on interpretability, robustness, and operational alignment.\nCapabilities include:\n\nSupervised learning for classification, ranking, and risk scoring\n\nProbabilistic modeling and uncertainty quantification\n\nFeature engineering grounded in domain constraints\n\nModel evaluation using decision-aligned metrics rather than generic benchmarks\n\nThe emphasis is on models that perform reliably in production, not just in experimentation.\n\n\n\n\nHigh-stakes systems depend on stable, trustworthy data. Expertise includes designing processes that ensure data remains usable, consistent, and meaningful over time.\nFocus areas:\n\nUpstream validation and schema stability\n\nMonitoring for drift, staleness, and signal degradation\n\nDesigning guardrails for missing, delayed, or corrupted data\n\nBuilding resilience into pipelines that feed decision systems\n\nThese practices reduce operational surprises and support long-term reliability.\n\n\n\n\nDecision systems must integrate cleanly into the environments where people work. Expertise includes aligning technical solutions with real operational constraints.\nExamples of integration work:\n\nDesigning thresholds, review queues, and escalation paths\n\nMapping model outputs to user actions and workflow steps\n\nReducing friction for clinicians, investigators, or compliance teams\n\nEnsuring systems enhance—not disrupt—existing processes\n\nThis alignment increases adoption and improves decision quality.\n\n\n\n\nLong-term durability requires systems that can be monitored, audited, and evolved without losing trust.\nCore capabilities:\n\nDesigning monitoring frameworks for drift, performance, and data quality\n\nImplementing versioning, rollback, and change‑management processes\n\nCreating audit trails that satisfy regulatory and internal governance needs\n\nStructuring lifecycle plans for models, rules, and decision logic\n\nThese practices ensure systems remain reliable years after deployment.\n\n\n\n\nEffective decision systems require alignment across technical, operational, and regulatory stakeholders. Expertise includes translating ambiguity into structured decisions and driving clarity across teams.\nStrengths include:\n\nFraming tradeoffs and constraints in accessible terms\n\nAligning engineering, product, and domain experts around shared goals\n\nCommunicating risk, uncertainty, and system behavior clearly\n\nSupporting decision-making processes with structured analysis\n\nThis capability accelerates adoption and reduces organizational friction.\n\n\n\n\nThese capabilities have been applied across multiple high‑stakes domains:\n\nFraud detection — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems\n\nClinical workflow optimization — triage logic, prioritization systems, operational decision support\n\nCompliance automation — rule encoding, exception handling, audit‑ready decision pipelines\n\nEach domain reinforces the same core principles: clarity, reliability, and operational fit."
+    "text": "Expertise shaped by building decision systems in regulated, high‑stakes environments. The focus is on reliability, clarity, and operational fit—ensuring that models, rules, and workflows behave predictably under real-world constraints."
   },
   {
     "objectID": "expertise/index.html#decision-system-architecture",
     "href": "expertise/index.html#decision-system-architecture",
     "title": "Expertise",
-    "section": "",
-    "text": "Designing systems that encode decisions, not just predictions. This includes structuring how data, rules, and models interact to support consistent, auditable outcomes.\nAreas of depth:\n\nTranslating business decisions into formal decision logic\n\nDesigning hybrid architectures that combine rules, heuristics, and ML\n\nStructuring systems for transparency, fallback behavior, and human review\n\nEnsuring auditability and traceability across the decision lifecycle\n\nThese patterns support systems that remain stable as incentives, data, and workflows evolve."
+    "section": "Decision System Architecture",
+    "text": "Decision System Architecture\nDesigning systems that encode decisions, not just predictions. This includes structuring how data, rules, and models interact to support consistent, auditable outcomes.\nAreas of depth:\n\nTranslating business decisions into formal decision logic\n\nDesigning hybrid architectures that combine rules, heuristics, and ML\n\nStructuring systems for transparency, fallback behavior, and human review\n\nEnsuring auditability and traceability across the decision lifecycle\n\nThese patterns support systems that remain stable as incentives, data, and workflows evolve."
   },
   {
     "objectID": "expertise/index.html#modeling-and-statistical-methods",
     "href": "expertise/index.html#modeling-and-statistical-methods",
     "title": "Expertise",
-    "section": "",
-    "text": "Applying statistical and machine learning techniques with an emphasis on interpretability, robustness, and operational alignment.\nCapabilities include:\n\nSupervised learning for classification, ranking, and risk scoring\n\nProbabilistic modeling and uncertainty quantification\n\nFeature engineering grounded in domain constraints\n\nModel evaluation using decision-aligned metrics rather than generic benchmarks\n\nThe emphasis is on models that perform reliably in production, not just in experimentation."
+    "section": "Modeling and Statistical Methods",
+    "text": "Modeling and Statistical Methods\nApplying statistical and machine learning techniques with an emphasis on interpretability, robustness, and operational alignment.\nCapabilities include:\n\nSupervised learning for classification, ranking, and risk scoring\n\nProbabilistic modeling and uncertainty quantification\n\nFeature engineering grounded in domain constraints\n\nModel evaluation using decision-aligned metrics rather than generic benchmarks\n\nThe emphasis is on models that perform reliably in production, not just in experimentation."
   },
   {
     "objectID": "expertise/index.html#data-quality-and-signal-integrity",
     "href": "expertise/index.html#data-quality-and-signal-integrity",
     "title": "Expertise",
-    "section": "",
-    "text": "High-stakes systems depend on stable, trustworthy data. Expertise includes designing processes that ensure data remains usable, consistent, and meaningful over time.\nFocus areas:\n\nUpstream validation and schema stability\n\nMonitoring for drift, staleness, and signal degradation\n\nDesigning guardrails for missing, delayed, or corrupted data\n\nBuilding resilience into pipelines that feed decision systems\n\nThese practices reduce operational surprises and support long-term reliability."
+    "section": "Data Quality and Signal Integrity",
+    "text": "Data Quality and Signal Integrity\nHigh-stakes systems depend on stable, trustworthy data. Expertise includes designing processes that ensure data remains usable, consistent, and meaningful over time.\nFocus areas:\n\nUpstream validation and schema stability\n\nMonitoring for drift, staleness, and signal degradation\n\nDesigning guardrails for missing, delayed, or corrupted data\n\nBuilding resilience into pipelines that feed decision systems\n\nThese practices reduce operational surprises and support long-term reliability."
   },
   {
     "objectID": "expertise/index.html#workflow-and-product-integration",
     "href": "expertise/index.html#workflow-and-product-integration",
     "title": "Expertise",
-    "section": "",
-    "text": "Decision systems must integrate cleanly into the environments where people work. Expertise includes aligning technical solutions with real operational constraints.\nExamples of integration work:\n\nDesigning thresholds, review queues, and escalation paths\n\nMapping model outputs to user actions and workflow steps\n\nReducing friction for clinicians, investigators, or compliance teams\n\nEnsuring systems enhance—not disrupt—existing processes\n\nThis alignment increases adoption and improves decision quality."
+    "section": "Workflow and Product Integration",
+    "text": "Workflow and Product Integration\nDecision systems must integrate cleanly into the environments where people work. Expertise includes aligning technical solutions with real operational constraints.\nExamples of integration work:\n\nDesigning thresholds, review queues, and escalation paths\n\nMapping model outputs to user actions and workflow steps\n\nReducing friction for clinicians, investigators, or compliance teams\n\nEnsuring systems enhance—not disrupt—existing processes\n\nThis alignment increases adoption and improves decision quality."
   },
   {
     "objectID": "expertise/index.html#monitoring-governance-and-lifecycle-management",
     "href": "expertise/index.html#monitoring-governance-and-lifecycle-management",
     "title": "Expertise",
-    "section": "",
-    "text": "Long-term durability requires systems that can be monitored, audited, and evolved without losing trust.\nCore capabilities:\n\nDesigning monitoring frameworks for drift, performance, and data quality\n\nImplementing versioning, rollback, and change‑management processes\n\nCreating audit trails that satisfy regulatory and internal governance needs\n\nStructuring lifecycle plans for models, rules, and decision logic\n\nThese practices ensure systems remain reliable years after deployment."
+    "section": "Monitoring, Governance, and Lifecycle Management",
+    "text": "Monitoring, Governance, and Lifecycle Management\nLong-term durability requires systems that can be monitored, audited, and evolved without losing trust.\nCore capabilities:\n\nDesigning monitoring frameworks for drift, performance, and data quality\n\nImplementing versioning, rollback, and change‑management processes\n\nCreating audit trails that satisfy regulatory and internal governance needs\n\nStructuring lifecycle plans for models, rules, and decision logic\n\nThese practices ensure systems remain reliable years after deployment."
   },
   {
     "objectID": "expertise/index.html#crossfunctional-alignment-and-communication",
     "href": "expertise/index.html#crossfunctional-alignment-and-communication",
     "title": "Expertise",
-    "section": "",
-    "text": "Effective decision systems require alignment across technical, operational, and regulatory stakeholders. Expertise includes translating ambiguity into structured decisions and driving clarity across teams.\nStrengths include:\n\nFraming tradeoffs and constraints in accessible terms\n\nAligning engineering, product, and domain experts around shared goals\n\nCommunicating risk, uncertainty, and system behavior clearly\n\nSupporting decision-making processes with structured analysis\n\nThis capability accelerates adoption and reduces organizational friction."
+    "section": "Cross‑Functional Alignment and Communication",
+    "text": "Cross‑Functional Alignment and Communication\nEffective decision systems require alignment across technical, operational, and regulatory stakeholders. Expertise includes translating ambiguity into structured decisions and driving clarity across teams.\nStrengths include:\n\nFraming tradeoffs and constraints in accessible terms\n\nAligning engineering, product, and domain experts around shared goals\n\nCommunicating risk, uncertainty, and system behavior clearly\n\nSupporting decision-making processes with structured analysis\n\nThis capability accelerates adoption and reduces organizational friction."
   },
   {
     "objectID": "expertise/index.html#domains-of-application",
     "href": "expertise/index.html#domains-of-application",
     "title": "Expertise",
-    "section": "",
-    "text": "These capabilities have been applied across multiple high‑stakes domains:\n\nFraud detection — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems\n\nClinical workflow optimization — triage logic, prioritization systems, operational decision support\n\nCompliance automation — rule encoding, exception handling, audit‑ready decision pipelines\n\nEach domain reinforces the same core principles: clarity, reliability, and operational fit."
+    "section": "Domains of Application",
+    "text": "Domains of Application\nThese capabilities have been applied across multiple high‑stakes domains:\n\nFraud detection — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems\n\nClinical workflow optimization — triage logic, prioritization systems, operational decision support\n\nCompliance automation — rule encoding, exception handling, audit‑ready decision pipelines\n\nEach domain reinforces the same core principles: clarity, reliability, and operational fit."
   },
   {
     "objectID": "about.html",
