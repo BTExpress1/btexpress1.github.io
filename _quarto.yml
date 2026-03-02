@@ -25,10 +25,10 @@ website:
         href: about.html
       - text: "Case Studies"
         href: case-studies/
+      - text: "Applied Decision Systems"
+        href: applied-decision-systems/
       - text: "Philosophy"
-        href: philosophy/
-      #- text: "Blog"
-      #  href: blog/
+        href: philosophy/      
 
 format:
   html:
