@@ -24,8 +24,8 @@ website:
         href: case-studies/
       - text: "Philosophy"
         href: philosophy/
-      - text: "Blog"
-        href: blog/
+      #- text: "Blog"
+      #  href: blog/
 
 format:
   html:
