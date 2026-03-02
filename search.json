@@ -4,42 +4,56 @@
     "href": "philosophy/index.html",
     "title": "Philosophy",
     "section": "",
-    "text": "Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences."
+    "text": "Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences.\n\n\n\nEffective systems begin with a clear understanding of the decision being made, the constraints surrounding it, and the risks of getting it wrong. Data serves as an input, not the anchor. A model produces a prediction; a system produces a decision. My focus is on the latter.\nKey considerations include:\n\nThe structure of the decision: Mapping how a choice is actually executed in the field.\nThe incentives and failure modes: Identifying what happens when the system is wrong and who bears the cost.\nThe operational environment: Designing for the specific latency and throughput requirements of the business.\n\nThis orientation ensures solutions align with real-world decision dynamics rather than purely statistical elegance.\n\n\n\n\nAmbiguity is the enemy of reliability. Before expanding feature sets or exploring advanced architectures, the foundation must be clarified:\n\nDefining “Good”: Establishing gold-standard labels that reflect business reality, not just available data.\nDefining Failure: Explicitly documenting what constitutes a system-level error versus a tolerable model variance.\nIdentifying Constraints: Surfacing regulatory or technical limits before they become architectural bottlenecks.\n\nClear definitions early on prevent downstream reliability issues and create a stable base for technical work.\n\n\n\n\nHigh-stakes systems must be predictable, auditable, and robust under pressure. Reliability takes precedence over novelty.\nCore practices include:\n\nInterpretability Over “Black Boxes”: Prioritizing models that stakeholders can trust and auditors can verify.\nDeterministic Guardrails: Wrapping probabilistic models in deterministic rules to ensure safety at the “edges”.\nFail-Safe Design: Ensuring systems are designed to fail safely toward human expertise, not away from it.\n\nThe objective is dependable performance, not algorithmic experimentation.\n\n\n\n\nRegulatory requirements, workflow bottlenecks, and human review patterns are integral components of system design. Incorporating these constraints early produces solutions that integrate cleanly into real-world environments and withstand scrutiny.\n\n\n\n\nUncertainty is quantified explicitly and used to guide safe fallback paths, escalation logic, and human-in-the-loop review. Systems built with uncertainty in mind behave predictably even when data conditions shift.\n\n\n\n\nThese principles translate into concrete engineering practices that support reliability in production:\n\nEconomic-Metric Alignment: Developing evaluation metrics that map directly to P&L or clinical safety outcomes.\nScenario-Based Testing: Stress-testing systems against edge cases and adversarial patterns before deployment.\nHybrid Architectures: Blending rules-based logic with machine learning to balance interpretability and precision.\nAudit-First Lifecycle: Implementing versioning and “decision-tracing” to ensure every action is explainable years later.\nData Quality as a Lever: Treating data pipelines as a core reliability component, not just a plumbing task.\n\n\n\n\n\nThese principles consistently produce systems that:\n\nImprove decision quality without increasing operational burden.\nHold up under regulatory and audit scrutiny.\nScale across teams, workflows, and product surfaces.\nBuild trust with stakeholders who depend on the outcomes."
   },
   {
     "objectID": "philosophy/index.html#model-the-decision-not-the-dataset",
     "href": "philosophy/index.html#model-the-decision-not-the-dataset",
     "title": "Philosophy",
-    "section": "Model the decision, not the dataset",
-    "text": "Model the decision, not the dataset\nEffective systems start with understanding the decision being made, the constraints around it, and the risks of getting it wrong. Data is an input, not the anchor. You focus on:\n\nThe structure of the decision\n\nThe incentives and failure modes\n\nThe operational environment where the model will live\n\nThis ensures the solution is aligned with business reality, not just statistical elegance."
+    "section": "",
+    "text": "Effective systems begin with a clear understanding of the decision being made, the constraints surrounding it, and the risks of getting it wrong. Data serves as an input, not the anchor. A model produces a prediction; a system produces a decision. My focus is on the latter.\nKey considerations include:\n\nThe structure of the decision: Mapping how a choice is actually executed in the field.\nThe incentives and failure modes: Identifying what happens when the system is wrong and who bears the cost.\nThe operational environment: Designing for the specific latency and throughput requirements of the business.\n\nThis orientation ensures solutions align with real-world decision dynamics rather than purely statistical elegance."
   },
   {
     "objectID": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
     "href": "philosophy/index.html#reduce-ambiguity-before-increasing-complexity",
     "title": "Philosophy",
-    "section": "Reduce ambiguity before increasing complexity",
-    "text": "Reduce ambiguity before increasing complexity\nAmbiguity is the enemy of reliability. Before adding features, tuning models, or exploring architectures, you clarify:\n\nWhat “good” looks like\n\nWhat failure means\n\nWhat constraints matter most\n\nThis creates a stable foundation for any technical work that follows."
+    "section": "",
+    "text": "Ambiguity is the enemy of reliability. Before expanding feature sets or exploring advanced architectures, the foundation must be clarified:\n\nDefining “Good”: Establishing gold-standard labels that reflect business reality, not just available data.\nDefining Failure: Explicitly documenting what constitutes a system-level error versus a tolerable model variance.\nIdentifying Constraints: Surfacing regulatory or technical limits before they become architectural bottlenecks.\n\nClear definitions early on prevent downstream reliability issues and create a stable base for technical work."
   },
   {
     "objectID": "philosophy/index.html#design-for-reliability-not-cleverness",
     "href": "philosophy/index.html#design-for-reliability-not-cleverness",
     "title": "Philosophy",
-    "section": "Design for reliability, not cleverness",
-    "text": "Design for reliability, not cleverness\nHigh‑stakes systems must be predictable, auditable, and robust under pressure. You prioritize:\n\nInterpretability where it matters\n\nHybrid approaches that blend rules and ML\n\nMonitoring that catches drift before it becomes a problem\n\nThe goal is not novelty. The goal is trust."
+    "section": "",
+    "text": "High-stakes systems must be predictable, auditable, and robust under pressure. Reliability takes precedence over novelty.\nCore practices include:\n\nInterpretability Over “Black Boxes”: Prioritizing models that stakeholders can trust and auditors can verify.\nDeterministic Guardrails: Wrapping probabilistic models in deterministic rules to ensure safety at the “edges”.\nFail-Safe Design: Ensuring systems are designed to fail safely toward human expertise, not away from it.\n\nThe objective is dependable performance, not algorithmic experimentation."
   },
   {
-    "objectID": "philosophy/index.html#align-stakeholders-early-and-often",
-    "href": "philosophy/index.html#align-stakeholders-early-and-often",
+    "objectID": "philosophy/index.html#treat-constraints-as-features",
+    "href": "philosophy/index.html#treat-constraints-as-features",
     "title": "Philosophy",
-    "section": "Align stakeholders early and often",
-    "text": "Align stakeholders early and often\nA system is only as strong as the organization that uses it. You bring your TPM background into DS work by:\n\nFraming ambiguity\n\nDriving alignment across technical and non‑technical teams\n\nEnsuring decisions are understood, not just implemented\n\nThis reduces friction and accelerates adoption."
+    "section": "",
+    "text": "Regulatory requirements, workflow bottlenecks, and human review patterns are integral components of system design. Incorporating these constraints early produces solutions that integrate cleanly into real-world environments and withstand scrutiny."
   },
   {
-    "objectID": "philosophy/index.html#build-for-the-long-term",
-    "href": "philosophy/index.html#build-for-the-long-term",
+    "objectID": "philosophy/index.html#make-uncertainty-a-first-class-signal",
+    "href": "philosophy/index.html#make-uncertainty-a-first-class-signal",
     "title": "Philosophy",
-    "section": "Build for the long term",
-    "text": "Build for the long term\nShort‑term wins matter, but durability matters more. You design systems that:\n\nSurvive organizational change\n\nScale with new data and new constraints\n\nRemain explainable years after deployment\n\nThis is how you create lasting impact."
+    "section": "",
+    "text": "Uncertainty is quantified explicitly and used to guide safe fallback paths, escalation logic, and human-in-the-loop review. Systems built with uncertainty in mind behave predictably even when data conditions shift."
+  },
+  {
+    "objectID": "philosophy/index.html#technical-foundations-behind-the-philosophy",
+    "href": "philosophy/index.html#technical-foundations-behind-the-philosophy",
+    "title": "Philosophy",
+    "section": "",
+    "text": "These principles translate into concrete engineering practices that support reliability in production:\n\nEconomic-Metric Alignment: Developing evaluation metrics that map directly to P&L or clinical safety outcomes.\nScenario-Based Testing: Stress-testing systems against edge cases and adversarial patterns before deployment.\nHybrid Architectures: Blending rules-based logic with machine learning to balance interpretability and precision.\nAudit-First Lifecycle: Implementing versioning and “decision-tracing” to ensure every action is explainable years later.\nData Quality as a Lever: Treating data pipelines as a core reliability component, not just a plumbing task."
+  },
+  {
+    "objectID": "philosophy/index.html#what-this-philosophy-enables",
+    "href": "philosophy/index.html#what-this-philosophy-enables",
+    "title": "Philosophy",
+    "section": "",
+    "text": "These principles consistently produce systems that:\n\nImprove decision quality without increasing operational burden.\nHold up under regulatory and audit scrutiny.\nScale across teams, workflows, and product surfaces.\nBuild trust with stakeholders who depend on the outcomes."
   },
   {
     "objectID": "expertise/index.html",
