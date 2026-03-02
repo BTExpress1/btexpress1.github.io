@@ -15,7 +15,7 @@ body, #quarto-content, .page-layout-custom, main {
 /* --- Page Top Spacing Under Navbar --- */
 main.content,
 #quarto-content {
-  padding-top: var(--nav-content-gap);
+  padding-top: calc(var(--nav-height) + 30px);
 }
 
 /* --- Navigation Bar (Dark Header) --- */
