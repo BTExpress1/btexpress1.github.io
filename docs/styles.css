@@ -2,20 +2,25 @@
 
 :root {
   --nav-height: 78px;
-  --nav-content-gap: 100px;
+  --nav-content-gap: 48px; /* use 48 or 100 if you truly want that much */
 }
 
-body, #quarto-content, .page-layout-custom, main {
+
+#quarto-content, .page-layout-custom, main {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
 }
 
+/* Offset entire page for fixed navbar */
+body {
+  margin: 0 !important;
+  padding-top: var(--nav-height) !important;
+}
 
-/* --- Page Top Spacing Under Navbar --- */
-main.content,
-#quarto-content {
-  padding-top: calc(var(--nav-height) + 30px);
+/* Optional: add extra breathing room below navbar specifically for titles */
+.quarto-title-block {
+  margin-top: var(--nav-content-gap) !important;
 }
 
 /* --- Navigation Bar (Dark Header) --- */
@@ -42,7 +47,14 @@ main.content,
   margin-bottom: 0 !important;
 }
 
-
+/* Remove Quarto's default padding on the brand link */
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 
 /* Nav Links - Yellow for visibility */
 .navbar-nav .nav-link {
