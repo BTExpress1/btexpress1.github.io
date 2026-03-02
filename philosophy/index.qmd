@@ -6,7 +6,6 @@ format:
     toc-depth: 2
 ---
 
-# Philosophy
 
 ![](/assets/images/decision-systems-philosophy-banner.png){.banner fig-alt="A conceptual visualization of a decision system feedback loop, showing data inputs and operational outcomes."}
 
