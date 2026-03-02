@@ -176,6 +176,55 @@ h3, h4 {
   color: #0076a8; /* A slightly lighter shade for sub-hierarchy */
 }
 
+
+/* Case studies readability */
+.case-studies h2 {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0,0,0,0.10);
+}
+
+.case-studies h3 {
+  margin-top: 1.25rem;
+}
+
+.case-studies p {
+  line-height: 1.6;
+  max-width: 72ch;
+  margin: 0.6rem 0;
+}
+
+.case-studies ul {
+  max-width: 72ch;
+  margin: 0.6rem 0 1rem 1.2rem;
+}
+
+.case-studies li {
+  margin: 0.35rem 0;
+}
+
+/* Metrics callout */
+.metrics-box {
+  max-width: 72ch;
+  margin: 1rem 0 1.25rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-left: 4px solid rgba(0,0,0,0.35);
+  border-radius: 10px;
+  background: rgba(0,0,0,0.03);
+}
+
+.metrics-box strong {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+}
+
+/* Banner spacing */
+.banner {
+  margin: 0.75rem 0 1.25rem 0;
+  border-radius: 12px;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .three-columns {
