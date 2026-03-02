@@ -15,9 +15,9 @@ toc: false
   </p>
 
   <div class="hero-cta-group">
-    <a href="/assets/Bini_Teklehaimanot_Resume.pdf" class="hero-cta-primary">
+    <a href="/assets/Bini_Teklehaimanot_Resume.pdf" target="_blank" class="hero-cta-primary">
       Download Resume
-    </a>
+    </a><br>
     <a href="mailto:bini@amakeybeacon.com" class="hero-cta-secondary">
       Start a Conversation
     </a>
