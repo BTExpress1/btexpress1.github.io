@@ -6,50 +6,111 @@ format:
     toc-depth: 2
 ---
 
-Capabilities developed through hands‑on delivery in regulated and operationally complex environments. This work reflects depth built through real constraints, cross‑functional alignment, and long‑term ownership of system performance.
+# Expertise
 
-## High‑stakes modeling and inference
+![](/assets/images/expertise-systems-architecture-banner.png){.banner fig-alt="An abstract technical schematic representing interconnected decision systems, architectural layers, and structured professional expertise."}
 
-Your modeling work centers on decisions where accuracy, interpretability, and risk management all matter. You design systems that balance statistical rigor with operational realities.
-
-- Classification and ranking systems for fraud and risk  
-- Time‑series and forecasting for operational planning  
-- Hybrid rule‑based and ML architectures for auditability  
-
-These systems are built to withstand scrutiny from regulators, auditors, and cross‑functional stakeholders.
+Expertise shaped by building decision systems in regulated, high‑stakes environments. The focus is on reliability, clarity, and operational fit—ensuring that models, rules, and workflows behave predictably under real-world constraints.
 
 ---
 
-## Risk and compliance frameworks
+## Decision System Architecture
 
-You bring a structured approach to risk, shaped by experience in regulated environments. Your systems are designed to be transparent, defensible, and aligned with compliance expectations.
+Designing systems that encode decisions, not just predictions. This includes structuring how data, rules, and models interact to support consistent, auditable outcomes.
 
-- Controls that integrate directly into model pipelines  
-- Documentation and traceability for regulatory review  
-- Monitoring frameworks that detect drift early  
+Areas of depth:
 
-This ensures that models remain trustworthy long after deployment.
+- Translating business decisions into formal decision logic  
+- Designing hybrid architectures that combine rules, heuristics, and ML  
+- Structuring systems for transparency, fallback behavior, and human review  
+- Ensuring auditability and traceability across the decision lifecycle  
 
----
-
-## Technical workflow design and architecture
-
-Your TPM background strengthens your ability to design workflows that scale, reduce ambiguity, and support long‑term maintainability.
-
-- Data pipelines that prioritize clarity and reproducibility  
-- Deployment workflows that minimize operational risk  
-- Architecture choices that balance speed with durability  
-
-These workflows help teams move faster without sacrificing reliability.
+These patterns support systems that remain stable as incentives, data, and workflows evolve.
 
 ---
 
-## Product alignment and stakeholder clarity
+## Modeling and Statistical Methods
 
-You translate complex modeling decisions into clear, actionable narratives that align teams and accelerate adoption.
+Applying statistical and machine learning techniques with an emphasis on interpretability, robustness, and operational alignment.
 
-- Framing ambiguity and defining decision boundaries  
-- Communicating trade‑offs in language that resonates  
-- Ensuring systems fit the way organizations actually operate  
+Capabilities include:
 
-This is how you turn technical work into business impact.
+- Supervised learning for classification, ranking, and risk scoring  
+- Probabilistic modeling and uncertainty quantification  
+- Feature engineering grounded in domain constraints  
+- Model evaluation using decision-aligned metrics rather than generic benchmarks  
+
+The emphasis is on models that perform reliably in production, not just in experimentation.
+
+---
+
+## Data Quality and Signal Integrity
+
+High-stakes systems depend on stable, trustworthy data. Expertise includes designing processes that ensure data remains usable, consistent, and meaningful over time.
+
+Focus areas:
+
+- Upstream validation and schema stability  
+- Monitoring for drift, staleness, and signal degradation  
+- Designing guardrails for missing, delayed, or corrupted data  
+- Building resilience into pipelines that feed decision systems  
+
+These practices reduce operational surprises and support long-term reliability.
+
+---
+
+## Workflow and Product Integration
+
+Decision systems must integrate cleanly into the environments where people work. Expertise includes aligning technical solutions with real operational constraints.
+
+Examples of integration work:
+
+- Designing thresholds, review queues, and escalation paths  
+- Mapping model outputs to user actions and workflow steps  
+- Reducing friction for clinicians, investigators, or compliance teams  
+- Ensuring systems enhance—not disrupt—existing processes  
+
+This alignment increases adoption and improves decision quality.
+
+---
+
+## Monitoring, Governance, and Lifecycle Management
+
+Long-term durability requires systems that can be monitored, audited, and evolved without losing trust.
+
+Core capabilities:
+
+- Designing monitoring frameworks for drift, performance, and data quality  
+- Implementing versioning, rollback, and change‑management processes  
+- Creating audit trails that satisfy regulatory and internal governance needs  
+- Structuring lifecycle plans for models, rules, and decision logic  
+
+These practices ensure systems remain reliable years after deployment.
+
+---
+
+## Cross‑Functional Alignment and Communication
+
+Effective decision systems require alignment across technical, operational, and regulatory stakeholders. Expertise includes translating ambiguity into structured decisions and driving clarity across teams.
+
+Strengths include:
+
+- Framing tradeoffs and constraints in accessible terms  
+- Aligning engineering, product, and domain experts around shared goals  
+- Communicating risk, uncertainty, and system behavior clearly  
+- Supporting decision-making processes with structured analysis  
+
+This capability accelerates adoption and reduces organizational friction.
+
+---
+
+## Domains of Application
+
+These capabilities have been applied across multiple high‑stakes domains:
+
+- **Fraud detection** — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems  
+- **Clinical workflow optimization** — triage logic, prioritization systems, operational decision support  
+- **Compliance automation** — rule encoding, exception handling, audit‑ready decision pipelines  
+
+Each domain reinforces the same core principles: clarity, reliability, and operational fit.
+

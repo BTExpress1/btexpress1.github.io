@@ -7,7 +7,7 @@ format:
 ---
 
 
-![](/assets/images/decision-systems-philosophy-banner.png){.banner fig-alt="A conceptual visualization of a decision system feedback loop, showing data inputs and operational outcomes."}
+![](/assets/images/decision-systems-philosophy-banner.png){.banner fig-alt="A sophisticated abstract technical diagram, in muted blue and gray tones, mapping the elements of a decision system architecture. Labeled components include 'PROBABILITY' curves, 'DATA INPUTS' icons (text, data sheet, database), 'SYSTEM STATE FEEDBACK' points with direction arrows, 'SYSTEM ARCHITECTURE', 'DECISION POINT', 'SYSTEM REFINEMENT', and 'OPERATIONAL OUTCOME' represented by a target symbol. All elements are interwoven around a central point, forming a closed, circular flow against a light background."}
 
 Principles shaped by building decision systems that must be trusted, explainable, and durable. These are not abstract ideas—they are patterns that consistently lead to reliable outcomes in environments where decisions carry operational, financial, or clinical consequences.
 
