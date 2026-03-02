@@ -2,7 +2,7 @@
 
 :root {
   --nav-height: 78px;
-  --nav-content-gap: 48px; /* use 48 or 100 if you truly want that much */
+  --nav-content-gap: 30px; /* use 48 or 100 if you truly want that much */
 }
 
 
