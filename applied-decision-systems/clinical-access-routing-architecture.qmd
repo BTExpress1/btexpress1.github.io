@@ -5,6 +5,9 @@ format:
     toc: false
 ---
 
+![](/assets/images/clinical.jpg){.case-diagram alt="Diagram of a clinical access routing decision system showing triage, monitor, and intervene pathways connecting hospitals, providers, and patients."}
+
+
 ### Decision Context
 
 Healthcare access decisions often operate under limited capacity, uneven resource distribution, and ambiguous eligibility rules. The challenge is not simply analyzing data, but structuring routing logic that allocates care access in a consistent and defensible manner.

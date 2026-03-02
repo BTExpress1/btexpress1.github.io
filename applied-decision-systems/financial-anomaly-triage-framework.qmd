@@ -4,6 +4,7 @@ format:
   html:
     toc: false
 ---
+![](/assets/images/financial.jpg){.case-diagram alt="Financial anomaly triage dashboard illustrating low, moderate, and high risk classification with monitoring, alerts, and review workflow."}
 
 ### Decision Context
 

@@ -5,6 +5,8 @@ format:
     toc: false
 ---
 
+![](/assets/images/probabilistic.png){.case-diagram alt="Retention intervention framework displaying a probability gauge from low to high risk with decision paths for monitor, check-in, and retention plan actions."}
+
 ### Decision Context
 
 Attrition prediction is only useful when it changes retention decisions. In practice, leaders need a calibrated way to decide who to intervene on, when to act, and what actions are justified given limited budget and manager capacity.
