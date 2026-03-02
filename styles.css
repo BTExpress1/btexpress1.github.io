@@ -2,6 +2,7 @@
 
 :root {
   --nav-height: 78px;
+  --nav-content-gap: 48px;
 }
 
 body, #quarto-content, .page-layout-custom, main {
@@ -12,9 +13,9 @@ body, #quarto-content, .page-layout-custom, main {
 
 
 /* --- Page Top Spacing Under Navbar --- */
-main.content, 
+main.content,
 #quarto-content {
-  padding-top: calc(var(--nav-height) - 30px) !important;
+  padding-top: var(--nav-content-gap);
 }
 
 /* --- Navigation Bar (Dark Header) --- */
