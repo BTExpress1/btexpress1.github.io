@@ -1,0 +1,45 @@
+---
+title: "Applied Decision Systems"
+format:
+  html:
+    toc: false
+---
+
+<div class="ads-container">
+
+<p class="ads-intro">
+A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
+</p>
+
+<div class="ads-grid">
+
+  <div class="ads-card">
+    <h3>Project Title Placeholder</h3>
+    <p>Short decision-focused summary describing the operational or regulatory decision this system supports.</p>
+    <span class="ads-tag">Fintech</span>
+    <a href="#" class="ads-button">View Project</a>
+  </div>
+
+  <div class="ads-card">
+    <h3>Project Title Placeholder</h3>
+    <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
+    <span class="ads-tag">Healthcare</span>
+    <a href="#" class="ads-button">View Project</a>
+  </div>
+
+  <div class="ads-card">
+    <h3>Project Title Placeholder</h3>
+    <p>Short decision-focused summary describing the architecture experiment or hybrid system design.</p>
+    <span class="ads-tag">Risk Systems</span>
+    <a href="#" class="ads-button">View Project</a>
+  </div>
+
+  <div class="ads-card">
+    <h3>Project Title Placeholder</h3>
+    <p>Short decision-focused summary describing the modeling tradeoffs and governance considerations.</p>
+    <span class="ads-tag">Compliance</span>
+    <a href="#" class="ads-button">View Project</a>
+  </div>
+
+</div>
+</div>

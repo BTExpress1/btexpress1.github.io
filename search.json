@@ -112,6 +112,13 @@
     "text": "Domains of Application\nThese capabilities have been applied across multiple high‑stakes domains:\n\nFraud detection — risk scoring, anomaly detection, hybrid rules‑plus‑ML systems\n\nClinical workflow optimization — triage logic, prioritization systems, operational decision support\n\nCompliance automation — rule encoding, exception handling, audit‑ready decision pipelines\n\nEach domain reinforces the same core principles: clarity, reliability, and operational fit."
   },
   {
+    "objectID": "applied-decision-systems/index.html",
+    "href": "applied-decision-systems/index.html",
+    "title": "Applied Decision Systems",
+    "section": "",
+    "text": "A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.\n\n\n\n&lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n&lt;p&gt;Short decision-focused summary describing the operational or regulatory decision this system supports.&lt;/p&gt;\n&lt;span class=\"ads-tag\"&gt;Fintech&lt;/span&gt;\n&lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n\n\n&lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n&lt;p&gt;Short decision-focused summary describing the intervention logic or threshold strategy explored.&lt;/p&gt;\n&lt;span class=\"ads-tag\"&gt;Healthcare&lt;/span&gt;\n&lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n\n\n&lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n&lt;p&gt;Short decision-focused summary describing the architecture experiment or hybrid system design.&lt;/p&gt;\n&lt;span class=\"ads-tag\"&gt;Risk Systems&lt;/span&gt;\n&lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;\n\n\n&lt;h3&gt;Project Title Placeholder&lt;/h3&gt;\n&lt;p&gt;Short decision-focused summary describing the modeling tradeoffs and governance considerations.&lt;/p&gt;\n&lt;span class=\"ads-tag\"&gt;Compliance&lt;/span&gt;\n&lt;a href=\"#\" class=\"ads-button\"&gt;View Project&lt;/a&gt;"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
