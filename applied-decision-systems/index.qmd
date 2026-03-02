@@ -3,10 +3,12 @@ title: "Applied Decision Systems"
 format:
   html:
     toc: false
+	title-block-banner: false
 ---
 
 ```{=html}
 <div class="ads-container">
+  <h1 class="hero-title" style="margin-bottom: 0.5rem;">Applied Decision Systems</h1>
   <p class="ads-intro">
     A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
   </p>
@@ -14,17 +16,19 @@ format:
   <div class="ads-grid">
     <div class="ads-card">
       <h3>Project Title Placeholder</h3>
+      <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
+      <span class="ads-tag">Healthcare</span>
+      <a href="#" class="ads-button">View Project</a>
+    </div>
+	
+    <div class="ads-card">
+      <h3>Project Title Placeholder</h3>
       <p>Short decision-focused summary describing the operational or regulatory decision this system supports.</p>
       <span class="ads-tag">Fintech</span>
       <a href="#" class="ads-button">View Project</a>
     </div>
 
-    <div class="ads-card">
-      <h3>Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
-      <span class="ads-tag">Healthcare</span>
-      <a href="#" class="ads-button">View Project</a>
-    </div>
+
 
     <div class="ads-card">
       <h3>Project Title Placeholder</h3>
