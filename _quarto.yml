@@ -7,10 +7,12 @@ website:
   favicon: assets/images/favicon.png
   page-footer:
     left: |
-      **Bini Teklehaimanot** &nbsp; [{{< fa brands linkedin >}}](https://www.linkedin.com/in/binilt/) &nbsp; [{{< fa brands github >}}](https://github.com/BTExpress1)
+      **Bini Teklehaimanot** &nbsp; 
+      <a href="https://www.linkedin.com/in/binilt/" target="_blank" aria-label="LinkedIn">{{< fa brands linkedin >}}</a> &nbsp; 
+      <a href="https://github.com/BTExpress1" target="_blank" aria-label="GitHub">{{< fa brands github >}}</a>
       <br>
-      <span style="font-size: 0.85em; opacity: 0.8;">
-      © 2026 | CISA, CDPSE, CRISC | Built with [Quarto](https://quarto.org)
+      <span style="font-size: 0.85em; opacity: 0.7;">
+      © 2026 | CISA, CDPSE, CRISC | Built with <a href="https://quarto.org" target="_blank">Quarto</a>
       </span>
     background: light  
   navbar:
