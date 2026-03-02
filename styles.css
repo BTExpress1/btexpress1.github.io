@@ -5,13 +5,13 @@ body, #quarto-content, .page-layout-custom, main {
   width: 100% !important;
 }
 :root {
-  --nav-height: 48px; /* adjust once */
+  --nav-height: 78px; /* adjust once */
 }
 
 /* --- Page Top Spacing Under Navbar --- */
 main.content, 
 #quarto-content {
-  padding-top: var(--nav-height) !important;
+  padding-top: calc(var(--nav-height) - 30px) !important;
 }
 
 /* --- Navigation Bar (Dark Header) --- */
