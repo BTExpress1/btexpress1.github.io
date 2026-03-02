@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Applied Decision Systems – Bini Teklehaimanot - Principal Data scientist</title>
+<title>Clinical Access Routing Architecture – Bini Teklehaimanot - Principal Data scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Applied Decision Systems</h1>
+<h1 class="title">Clinical Access Routing Architecture</h1>
 </div>
 
 
@@ -136,42 +136,88 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="ads-container">
-<p class="ads-intro">
-A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
-</p>
-<div class="ads-grid">
-<pre><code>&lt;div class="ads-card"&gt;
-  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;
-  &lt;p&gt;Short decision-focused summary describing the operational or regulatory decision this system supports.&lt;/p&gt;
-  &lt;span class="ads-tag"&gt;Fintech&lt;/span&gt;
-  &lt;a href="#" class="ads-button"&gt;View Project&lt;/a&gt;
-&lt;/div&gt;
+<section id="decision-context" class="level3">
+<h3 class="anchored" data-anchor-id="decision-context">Decision Context</h3>
+<p>Healthcare access decisions often operate under limited capacity, uneven resource distribution, and ambiguous eligibility rules. The challenge is not simply analyzing data, but structuring routing logic that allocates care access in a consistent and defensible manner.</p>
+<p>This project explores how access data can inform structured clinical routing decisions under operational constraints.</p>
+<hr>
+</section>
+<section id="the-decision-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-decision-problem">The Decision Problem</h3>
+<p>Given patient attributes and contextual signals, how should access be prioritized?</p>
+<p>Key considerations:</p>
+<ul>
+<li>Limited provider capacity<br>
+</li>
+<li>Fairness and equitable allocation<br>
+</li>
+<li>Risk of delayed intervention<br>
+</li>
+<li>Transparency of routing criteria</li>
+</ul>
+<p>The objective shifts from prediction to structured decision support.</p>
+<hr>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>This project began as exploratory analysis of healthcare access patterns, then evolved into a decision-framing exercise:</p>
+<ul>
+<li>Identified access bottlenecks and priority indicators<br>
+</li>
+<li>Modeled probability signals for delayed access risk<br>
+</li>
+<li>Evaluated threshold strategies for intervention routing<br>
+</li>
+<li>Structured deterministic guardrails for safety constraints<br>
+</li>
+<li>Explored how hybrid rule + probability systems improve transparency</li>
+</ul>
+<p>The focus was not model accuracy alone, but decision reliability.</p>
+<hr>
+</section>
+<section id="architectural-insight" class="level3">
+<h3 class="anchored" data-anchor-id="architectural-insight">Architectural Insight</h3>
+<p>A clinical routing system must:</p>
+<ul>
+<li>Separate scoring logic from intervention policy<br>
+</li>
+<li>Make thresholds adjustable based on capacity<br>
+</li>
+<li>Preserve human oversight for ambiguous cases<br>
+</li>
+<li>Log decisions for auditability</li>
+</ul>
+<p>This transforms exploratory modeling into decision architecture.</p>
+<hr>
+</section>
+<section id="what-this-enables" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-enables">What This Enables</h3>
+<ul>
+<li>Structured triage decision support<br>
+</li>
+<li>Operational routing transparency<br>
+</li>
+<li>Capacity-aware prioritization<br>
+</li>
+<li>Safer deployment of predictive signals</li>
+</ul>
+<hr>
+</section>
+<section id="technical-stack" class="level3">
+<h3 class="anchored" data-anchor-id="technical-stack">Technical Stack</h3>
+<p>Python<br>
+Pandas<br>
+Scikit-learn<br>
+Exploratory data analysis<br>
+Probability modeling</p>
+<hr>
+</section>
+<section id="source-code" class="level3">
+<h3 class="anchored" data-anchor-id="source-code">Source Code</h3>
+<p><a href="https://github.com/BTExpress1/healthCareAccess">View Code on GitHub</a></p>
 
-&lt;div class="ads-card"&gt;
-  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;
-  &lt;p&gt;Short decision-focused summary describing the intervention logic or threshold strategy explored.&lt;/p&gt;
-  &lt;span class="ads-tag"&gt;Healthcare&lt;/span&gt;
-  &lt;a href="#" class="ads-button"&gt;View Project&lt;/a&gt;
-&lt;/div&gt;
 
-&lt;div class="ads-card"&gt;
-  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;
-  &lt;p&gt;Short decision-focused summary describing the architecture experiment or hybrid system design.&lt;/p&gt;
-  &lt;span class="ads-tag"&gt;Risk Systems&lt;/span&gt;
-  &lt;a href="#" class="ads-button"&gt;View Project&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class="ads-card"&gt;
-  &lt;h3&gt;Project Title Placeholder&lt;/h3&gt;
-  &lt;p&gt;Short decision-focused summary describing the modeling tradeoffs and governance considerations.&lt;/p&gt;
-  &lt;span class="ads-tag"&gt;Compliance&lt;/span&gt;
-  &lt;a href="#" class="ads-button"&gt;View Project&lt;/a&gt;
-&lt;/div&gt;</code></pre>
-</div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

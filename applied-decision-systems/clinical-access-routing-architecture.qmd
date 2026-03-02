@@ -1,0 +1,79 @@
+---
+title: "Clinical Access Routing Architecture"
+format:
+  html:
+    toc: false
+---
+
+### Decision Context
+
+Healthcare access decisions often operate under limited capacity, uneven resource distribution, and ambiguous eligibility rules. The challenge is not simply analyzing data, but structuring routing logic that allocates care access in a consistent and defensible manner.
+
+This project explores how access data can inform structured clinical routing decisions under operational constraints.
+
+---
+
+### The Decision Problem
+
+Given patient attributes and contextual signals, how should access be prioritized?
+
+Key considerations:
+
+- Limited provider capacity  
+- Fairness and equitable allocation  
+- Risk of delayed intervention  
+- Transparency of routing criteria  
+
+The objective shifts from prediction to structured decision support.
+
+---
+
+### Approach
+
+This project began as exploratory analysis of healthcare access patterns, then evolved into a decision-framing exercise:
+
+- Identified access bottlenecks and priority indicators  
+- Modeled probability signals for delayed access risk  
+- Evaluated threshold strategies for intervention routing  
+- Structured deterministic guardrails for safety constraints  
+- Explored how hybrid rule + probability systems improve transparency  
+
+The focus was not model accuracy alone, but decision reliability.
+
+---
+
+### Architectural Insight
+
+A clinical routing system must:
+
+- Separate scoring logic from intervention policy  
+- Make thresholds adjustable based on capacity  
+- Preserve human oversight for ambiguous cases  
+- Log decisions for auditability  
+
+This transforms exploratory modeling into decision architecture.
+
+---
+
+### What This Enables
+
+- Structured triage decision support  
+- Operational routing transparency  
+- Capacity-aware prioritization  
+- Safer deployment of predictive signals  
+
+---
+
+### Technical Stack
+
+Python  
+Pandas  
+Scikit-learn  
+Exploratory data analysis  
+Probability modeling  
+
+---
+
+### Source Code
+
+[View Code on GitHub](https://github.com/BTExpress1/healthCareAccess)
