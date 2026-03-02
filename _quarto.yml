@@ -4,7 +4,17 @@ project:
 website:
   title: "Bini Teklehaimanot - Principal Data scientist"
   image: assets/images/logo.png
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.png  
+  page-footer:
+    left: "© 2026 Bini Teklehaimanot" #
+    center: 
+      - text: "Built with Quarto"
+        href: https://quarto.org
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/binilt/ #
+      - icon: github
+        href: https://github.com/BTExpress1 #
   navbar:
     logo: assets/images/logo.png
     title: false 
