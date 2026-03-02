@@ -1,8 +1,7 @@
 ---
 title: "Philosophy"
 format:
-  html:
-    toc: true
+  html:    
     toc-depth: 2
 ---
 
