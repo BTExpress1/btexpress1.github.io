@@ -17,7 +17,7 @@ format:
       <h3>Project Title Placeholder</h3>
       <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
       <span class="ads-tag">Healthcare</span>
-      <a href="/applied-decision-systems/clinicalaccess-routing-architecture" class="ads-button">View Project</a>
+      <a href="/applied-decision-systems/clinical-access-routing-architecture" class="ads-button">View Project</a>
     </div>
 	
     <div class="ads-card">

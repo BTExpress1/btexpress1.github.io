@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Applied Decision Systems – Bini Teklehaimanot - Principal Data scientist</title>
+<title>Financial Anomaly Triage Framework – Bini Teklehaimanot - Principal Data scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Applied Decision Systems</h1>
+<h1 class="title">Financial Anomaly Triage Framework</h1>
 </div>
 
 
@@ -136,46 +136,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="ads-container">
-  
-  <p class="ads-intro">
-    A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
-  </p>
+<section id="decision-context" class="level3">
+<h3 class="anchored" data-anchor-id="decision-context">Decision Context</h3>
+<p>Financial reporting and transaction ecosystems generate a high volume of signals, but investigative capacity is limited. The practical problem is not “detect everything,” but to prioritize which entities or patterns deserve attention first, with defensible thresholds and traceable rationale.</p>
+<p>This project reframes fraud detection as a triage decision system: identify suspicious patterns, rank risk, and define intervention boundaries.</p>
+<hr>
+</section>
+<section id="the-decision-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-decision-problem">The Decision Problem</h3>
+<p>Given a set of financial signals, which cases should be escalated for review?</p>
+<p>Constraints that matter:</p>
+<ul>
+<li>Limited investigation bandwidth<br>
+</li>
+<li>Asymmetric cost (missed fraud vs false escalation)<br>
+</li>
+<li>Auditability of why something was flagged<br>
+</li>
+<li>Stability under distribution shift and noisy data</li>
+</ul>
+<hr>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>This work focuses on risk triage rather than pure classification:</p>
+<ul>
+<li>Profiled and engineered anomaly-relevant signals<br>
+</li>
+<li>Applied unsupervised / semi-supervised detection patterns to surface outliers<br>
+</li>
+<li>Designed a ranking strategy so review starts with highest-risk cases<br>
+</li>
+<li>Introduced threshold concepts (escalate, monitor, ignore) rather than a single cutoff<br>
+</li>
+<li>Emphasized explainable drivers (what contributed to escalation)</li>
+</ul>
+<hr>
+</section>
+<section id="architecture-high-level" class="level3">
+<h3 class="anchored" data-anchor-id="architecture-high-level">Architecture (High-Level)</h3>
+<p>A triage-ready pattern:</p>
+<ol type="1">
+<li>Ingest signals (financial metrics, derived ratios, behavioral indicators)<br>
+</li>
+<li>Validate and standardize features<br>
+</li>
+<li>Generate anomaly scores<br>
+</li>
+<li>Rank cases by risk<br>
+</li>
+<li>Apply intervention thresholds (review vs monitor)<br>
+</li>
+<li>Log decisions and drivers for traceability</li>
+</ol>
+<p>This structure supports scale and governance even when labels are incomplete.</p>
+<hr>
+</section>
+<section id="what-this-demonstrates" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-demonstrates">What This Demonstrates</h3>
+<ul>
+<li>Reframing fraud detection into operational triage<br>
+</li>
+<li>Threshold thinking (capacity-aware interventions)<br>
+</li>
+<li>Explainability through driver decomposition<br>
+</li>
+<li>Governance-ready decision logging patterns</li>
+</ul>
+<hr>
+</section>
+<section id="technical-stack" class="level3">
+<h3 class="anchored" data-anchor-id="technical-stack">Technical Stack</h3>
+<p>Python<br>
+Pandas<br>
+Scikit-learn<br>
+Anomaly detection patterns<br>
+Feature engineering and risk ranking</p>
+<hr>
+</section>
+<section id="source-code" class="level3">
+<h3 class="anchored" data-anchor-id="source-code">Source Code</h3>
+<p><a href="https://github.com/BTExpress1/accounting-fraud-detection">View Code on GitHub</a></p>
 
-  <div class="ads-grid">
-    <div class="ads-card">
-      <h3 class="anchored">Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the intervention logic or threshold strategy explored.</p>
-      <span class="ads-tag">Healthcare</span>
-      <a href="../applied-decision-systems/clinical-access-routing-architecture" class="ads-button">View Project</a>
-    </div>
-    
-    <div class="ads-card">
-      <h3 class="anchored">Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the operational or regulatory decision this system supports.</p>
-      <span class="ads-tag">Fintech</span>
-      <a href="#" class="ads-button">View Project</a>
-    </div>
 
-
-
-    <div class="ads-card">
-      <h3 class="anchored">Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the architecture experiment or hybrid system design.</p>
-      <span class="ads-tag">Risk Systems</span>
-      <a href="#" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Project Title Placeholder</h3>
-      <p>Short decision-focused summary describing the modeling tradeoffs and governance considerations.</p>
-      <span class="ads-tag">Compliance</span>
-      <a href="#" class="ads-button">View Project</a>
-    </div>
-  </div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

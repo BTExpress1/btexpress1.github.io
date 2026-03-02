@@ -1,0 +1,77 @@
+---
+title: "Financial Anomaly Triage Framework"
+format:
+  html:
+    toc: false
+---
+
+### Decision Context
+
+Financial reporting and transaction ecosystems generate a high volume of signals, but investigative capacity is limited. The practical problem is not “detect everything,” but to prioritize which entities or patterns deserve attention first, with defensible thresholds and traceable rationale.
+
+This project reframes fraud detection as a triage decision system: identify suspicious patterns, rank risk, and define intervention boundaries.
+
+---
+
+### The Decision Problem
+
+Given a set of financial signals, which cases should be escalated for review?
+
+Constraints that matter:
+
+- Limited investigation bandwidth  
+- Asymmetric cost (missed fraud vs false escalation)  
+- Auditability of why something was flagged  
+- Stability under distribution shift and noisy data  
+
+---
+
+### Approach
+
+This work focuses on risk triage rather than pure classification:
+
+- Profiled and engineered anomaly-relevant signals  
+- Applied unsupervised / semi-supervised detection patterns to surface outliers  
+- Designed a ranking strategy so review starts with highest-risk cases  
+- Introduced threshold concepts (escalate, monitor, ignore) rather than a single cutoff  
+- Emphasized explainable drivers (what contributed to escalation)
+
+---
+
+### Architecture (High-Level)
+
+A triage-ready pattern:
+
+1. Ingest signals (financial metrics, derived ratios, behavioral indicators)  
+2. Validate and standardize features  
+3. Generate anomaly scores  
+4. Rank cases by risk  
+5. Apply intervention thresholds (review vs monitor)  
+6. Log decisions and drivers for traceability  
+
+This structure supports scale and governance even when labels are incomplete.
+
+---
+
+### What This Demonstrates
+
+- Reframing fraud detection into operational triage  
+- Threshold thinking (capacity-aware interventions)  
+- Explainability through driver decomposition  
+- Governance-ready decision logging patterns  
+
+---
+
+### Technical Stack
+
+Python  
+Pandas  
+Scikit-learn  
+Anomaly detection patterns  
+Feature engineering and risk ranking
+
+---
+
+### Source Code
+
+[View Code on GitHub](https://github.com/BTExpress1/accounting-fraud-detection)
