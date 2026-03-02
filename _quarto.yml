@@ -7,10 +7,11 @@ website:
   favicon: assets/images/favicon.png
   page-footer:
     left: |
-      © 2026 Bini Teklehaimanot | CISA, CDPSE, CRISC | [Built with Quarto](https://quarto.org)
+      **Bini Teklehaimanot** &nbsp; [{{< fa brands linkedin >}}](https://www.linkedin.com/in/binilt/) &nbsp; [{{< fa brands github >}}](https://github.com/BTExpress1)
       <br>
-      <a href="https://www.linkedin.com/in/binilt/" aria-label="LinkedIn">{{< fa brands linkedin >}}</a> &nbsp; 
-      <a href="https://github.com/BTExpress1" aria-label="GitHub">{{< fa brands github >}}</a>
+      <span style="font-size: 0.85em; opacity: 0.8;">
+      © 2026 | CISA, CDPSE, CRISC | Built with [Quarto](https://quarto.org)
+      </span>
     background: light  
   navbar:
     logo: assets/images/logo.png
