@@ -1,0 +1,92 @@
+---
+title: "Skin Lesion Classification System"
+format:
+  html:
+    toc: false
+---
+
+![](/assets/images/skincancer.jpg){.case-diagram alt="Dermoscopic skin lesion classification system using MobileNetV2 transfer learning across 7 diagnostic categories including melanoma detection."}
+
+<div class="metrics-box">
+  <strong>Executive Impact</strong>
+  <ul>
+    <li>Reduces life-critical False Negatives in melanoma detection through recall-optimized training.</li>
+    <li>Achieves 0.929 Macro AUC-ROC across 7 diagnostic classes on a clinically imbalanced dataset.</li>
+    <li>Demonstrates production-ready model governance with held-out test set validation at 71% accuracy.</li>
+  </ul>
+</div>
+
+### Decision Context
+
+Skin cancer diagnosis from dermoscopic images requires distinguishing between 7 lesion types with significantly different clinical risk profiles. The challenge is not classification accuracy alone, but minimizing the cost of the worst error: a missed melanoma.
+
+This project reframes image classification as a clinical decision problem, where class imbalance, recall asymmetry, and threshold design matter as much as model architecture.
+
+---
+
+### The Decision Problem
+
+Given a dermoscopic image, how should the system route the lesion for clinical review?
+
+Key considerations:
+
+- Severe class imbalance (nevus represents 67% of samples)
+- Asymmetric error costs across 7 lesion types
+- Risk of missed malignancy versus unnecessary follow-up
+- Transparency and auditability of classification confidence
+
+The objective shifts from raw accuracy to clinically calibrated recall.
+
+---
+
+### Approach
+
+This project followed a three-phase progressive training pipeline:
+
+- Established a custom CNN baseline to validate class weighting strategy
+- Introduced MobileNetV2 transfer learning with frozen ImageNet weights
+- Upgraded to native 224x224 resolution with surgical unfreezing of top 50 layers
+- Applied conservative learning rate (1e-5) to preserve pretrained feature structure
+- Evaluated per-class AUC-ROC to measure probabilistic separation independent of threshold
+
+The focus was not peak accuracy, but decision reliability across minority classes.
+
+---
+
+### Architectural Insight
+
+A clinical image classification system must:
+
+- Weight training signal by clinical error cost, not sample frequency
+- Separate feature extraction from classification policy
+- Validate on a held-out test set untouched during all training phases
+- Report recall per class, not aggregate accuracy
+
+This transforms image modeling into a decision system with defensible error tradeoffs.
+
+---
+
+### What This Enables
+
+- Structured lesion triage by risk tier
+- Recall-optimized detection for high-stakes classes
+- Auditable confidence scores per prediction
+- Foundation for threshold-based clinical routing logic
+
+---
+
+### Technical Stack
+
+Python  
+TensorFlow / Keras  
+MobileNetV2 (ImageNet pretrained)  
+scikit-learn  
+Transfer learning and fine-tuning  
+AUC-ROC evaluation  
+Class-weighted training  
+
+---
+
+### Source Code
+
+[View Code on GitHub](https://github.com/BTExpress1/skincancer)
