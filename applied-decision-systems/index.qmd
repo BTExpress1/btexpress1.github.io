@@ -42,6 +42,13 @@ format:
       <a href="/applied-decision-systems/credit-risk-threshold-design-framework" class="ads-button">View Project</a>
     </div>
 
+    <div class="ads-card">
+       <h3>Skin Lesion Classification System</h3>
+       <p>Applies transfer learning and surgical fine-tuning to classify dermoscopic images across 7 diagnostic categories, optimized to reduce life-critical False Negatives in melanoma detection.</p>
+       <span class="ads-tag">Clinical AI</span>
+       <a href="/applied-decision-systems/skin-lesion-classification-system" class="ads-button">View Project</a>
+    </div>
+
   </div>
 </div>
 ```
