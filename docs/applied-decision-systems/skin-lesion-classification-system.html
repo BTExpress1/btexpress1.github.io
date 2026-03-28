@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Applied Decision Systems – Bini Teklehaimanot - Principal Data scientist</title>
+<title>Skin Lesion Classification System – Bini Teklehaimanot - Principal Data scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Applied Decision Systems</h1>
+<h1 class="title">Skin Lesion Classification System</h1>
 </div>
 
 
@@ -140,53 +140,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="ads-container">
-  
-  <p class="ads-intro">
-    A curated collection of applied decision architectures, modeling explorations, and production design patterns. Each project reframes prediction as a decision problem under operational and governance constraints.
-  </p>
-
-  <div class="ads-grid">
-
-    <div class="ads-card">
-      <h3 class="anchored">Clinical Access Routing Decision Framework</h3>
-      <p>Transforms healthcare access analysis into a structured routing and prioritization decision system aligned with capacity and equity constraints.</p>
-      <span class="ads-tag">Healthcare</span>
-      <a href="../applied-decision-systems/clinical-access-routing-architecture" class="ads-button">View Project</a>
-    </div>
-    
-    <div class="ads-card">
-      <h3 class="anchored">Financial Anomaly Triage Framework</h3>
-      <p>Reframes fraud detection into a ranked triage system that prioritizes investigative effort under asymmetric risk and audit requirements.</p>
-      <span class="ads-tag">Fintech</span>
-      <a href="../applied-decision-systems/financial-anomaly-triage-framework" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Probabilistic Retention Intervention System</h3>
-      <p>Converts attrition prediction into calibrated intervention bands aligned with HR capacity and retention economics.</p>
-      <span class="ads-tag">Workforce Analytics</span>
-      <a href="../applied-decision-systems/probabilistic-retention-intervention-system" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-      <h3 class="anchored">Credit Risk Threshold Design Framework</h3>
-      <p>Models approval thresholds and portfolio tradeoffs to simulate real-world credit decision logic under capital constraints.</p>
-      <span class="ads-tag">Risk Systems</span>
-      <a href="../applied-decision-systems/credit-risk-threshold-design-framework" class="ads-button">View Project</a>
-    </div>
-
-    <div class="ads-card">
-       <h3 class="anchored">Skin Lesion Classification System</h3>
-       <p>Applies transfer learning and surgical fine-tuning to classify dermoscopic images across 7 diagnostic categories, optimized to reduce life-critical False Negatives in melanoma detection.</p>
-       <span class="ads-tag">Clinical AI</span>
-       <a href="../applied-decision-systems/skin-lesion-classification-system" class="ads-button">View Project</a>
-    </div>
-
-  </div>
+<p><img src="..\assets/images/skincancer.jpg" class="case-diagram img-fluid" alt="Dermoscopic skin lesion classification system using MobileNetV2 transfer learning across 7 diagnostic categories including melanoma detection."></p>
+<div class="metrics-box">
+<strong>Executive Impact</strong>
+<ul>
+<li>
+Reduces life-critical False Negatives in melanoma detection through recall-optimized training.
+</li>
+<li>
+Achieves 0.929 Macro AUC-ROC across 7 diagnostic classes on a clinically imbalanced dataset.
+</li>
+<li>
+Demonstrates production-ready model governance with held-out test set validation at 71% accuracy.
+</li>
+</ul>
 </div>
+<section id="decision-context" class="level3">
+<h3 class="anchored" data-anchor-id="decision-context">Decision Context</h3>
+<p>Skin cancer diagnosis from dermoscopic images requires distinguishing between 7 lesion types with significantly different clinical risk profiles. The challenge is not classification accuracy alone, but minimizing the cost of the worst error: a missed melanoma.</p>
+<p>This project reframes image classification as a clinical decision problem, where class imbalance, recall asymmetry, and threshold design matter as much as model architecture.</p>
+<hr>
+</section>
+<section id="the-decision-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-decision-problem">The Decision Problem</h3>
+<p>Given a dermoscopic image, how should the system route the lesion for clinical review?</p>
+<p>Key considerations:</p>
+<ul>
+<li>Severe class imbalance (nevus represents 67% of samples)</li>
+<li>Asymmetric error costs across 7 lesion types</li>
+<li>Risk of missed malignancy versus unnecessary follow-up</li>
+<li>Transparency and auditability of classification confidence</li>
+</ul>
+<p>The objective shifts from raw accuracy to clinically calibrated recall.</p>
+<hr>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>This project followed a three-phase progressive training pipeline:</p>
+<ul>
+<li>Established a custom CNN baseline to validate class weighting strategy</li>
+<li>Introduced MobileNetV2 transfer learning with frozen ImageNet weights</li>
+<li>Upgraded to native 224x224 resolution with surgical unfreezing of top 50 layers</li>
+<li>Applied conservative learning rate (1e-5) to preserve pretrained feature structure</li>
+<li>Evaluated per-class AUC-ROC to measure probabilistic separation independent of threshold</li>
+</ul>
+<p>The focus was not peak accuracy, but decision reliability across minority classes.</p>
+<hr>
+</section>
+<section id="architectural-insight" class="level3">
+<h3 class="anchored" data-anchor-id="architectural-insight">Architectural Insight</h3>
+<p>A clinical image classification system must:</p>
+<ul>
+<li>Weight training signal by clinical error cost, not sample frequency</li>
+<li>Separate feature extraction from classification policy</li>
+<li>Validate on a held-out test set untouched during all training phases</li>
+<li>Report recall per class, not aggregate accuracy</li>
+</ul>
+<p>This transforms image modeling into a decision system with defensible error tradeoffs.</p>
+<hr>
+</section>
+<section id="what-this-enables" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-enables">What This Enables</h3>
+<ul>
+<li>Structured lesion triage by risk tier</li>
+<li>Recall-optimized detection for high-stakes classes</li>
+<li>Auditable confidence scores per prediction</li>
+<li>Foundation for threshold-based clinical routing logic</li>
+</ul>
+<hr>
+</section>
+<section id="technical-stack" class="level3">
+<h3 class="anchored" data-anchor-id="technical-stack">Technical Stack</h3>
+<p>Python<br>
+TensorFlow / Keras<br>
+MobileNetV2 (ImageNet pretrained)<br>
+scikit-learn<br>
+Transfer learning and fine-tuning<br>
+AUC-ROC evaluation<br>
+Class-weighted training</p>
+<hr>
+</section>
+<section id="source-code" class="level3">
+<h3 class="anchored" data-anchor-id="source-code">Source Code</h3>
+<p><a href="https://github.com/BTExpress1/skincancer">View Code on GitHub</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
